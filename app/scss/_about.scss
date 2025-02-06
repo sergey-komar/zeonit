@@ -1,0 +1,124 @@
+.about {
+    padding: 5rem 0 8rem 0;
+    background-color: #247ACF;
+}
+.about-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+}
+.about-block__content {
+    width: 50%;
+}
+.about-block__content-text {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.about-block__content-img {
+    width: 50%;
+}
+.about-block__content-img img{
+    margin-left: auto;
+}
+.about-box {
+    margin: -70px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.about-box__item {
+    padding: 20px;
+    width: calc(100% / 3 - 20px);
+    background-color: #fff;
+    border: 1px solid #CEDCF2;
+    box-shadow: 0 4px 13px rgba(46, 52, 89, 0.1);
+    border-radius: 6px;
+}
+.about-box__item-title {
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.about-desc__item {
+    margin-bottom: 40px;
+}
+.about-desc__item-title {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.about-desc__item-text {
+    line-height: 1.4;
+}
+.about-desc__item-text span{
+    font-weight: 700;
+}
+.tabs {
+    padding: 4rem 0 8rem 0;
+}
+.tabs__inner{
+    display: flex;
+    gap: 20px;
+}
+.tabs__item {
+    width: 25%;
+    margin-left: 30px;
+}
+.tabs__item-btn {
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+}
+.tabs__item-btn:last-child{
+    padding-bottom: 10px;
+}
+.tabs__item-btn::before{
+    position: absolute;
+    content: '';
+    width: 4px;
+    left: -30px;
+    height: 100%;
+    background: #247ACF;
+}
+.tabs__item-btn.active-tabs.tabs__item-btn::before{
+    background: #ff7b32;
+}
+.active-tabs {
+    color: #ff7b32;
+    font-weight: 600;
+}
+
+.tabs__wrapper{
+    width: 75%;
+}
+.tabs__content {
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    background: #FFFFFF;
+    border: 1px solid #CEDCF2;
+    box-shadow: 0 4px 13px rgba(46, 52, 89, 0.1);
+    border-radius: 5px;
+    display: none;
+}
+.tabs__list li{
+    position: relative;
+    margin: 0 0 20px 30px;
+}
+.tabs__list li::before{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: -20px;
+    border-radius: 50%;
+    background-color: #247ACF;
+}
+.show-tabs{
+    display: block;
+}
+.hide-tabs{
+    display: none;
+}
