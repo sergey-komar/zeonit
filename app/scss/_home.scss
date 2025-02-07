@@ -1,5 +1,5 @@
 .popular {
-    padding-top: 4rem;
+    padding-top: 10rem;
 }
 .popular__title {
     text-align: center;
@@ -40,7 +40,7 @@
 
 //advantages
 .advantages{
-    padding: 20rem;
+    padding: 20rem 0;
     position: relative;
     overflow: hidden;
     clip-path: polygon(100% 20%, 100% 80%, 0 100%, 0 0);
@@ -136,7 +136,7 @@
 
 //discuss
 .discuss {
-    padding: 8rem;
+    padding: 8rem 0;
 }
 .discuss-block {
     display: flex;

@@ -1,0 +1,234 @@
+.rent {
+    padding: 8rem 0;
+    background-color: #247ACF;
+}
+.rent-block {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.rent-block__content {
+    width: 50%;
+}
+.rent-block__content-title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+    color: #fff;
+}
+.rent-block__content-text {
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.rent-block__content-btn {
+    max-width: 380px;
+    width: 100%;
+}
+.rent-block__content-btn:hover{
+    background: #a13a03;
+}
+.rent-block__img {
+    width: 50%;
+}
+
+
+
+
+//models
+.models {
+    padding: 8rem 0;
+}
+.models-block__text {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.models-block__btn {
+    max-width: 350px;
+    width: 100%;
+}
+.tabs{
+    background-color: #f5f5f5;
+}
+.tabs__title {
+    font-weight: 600;
+   
+}
+
+
+//highlighted
+.highlighted {
+    padding: 8rem 0;
+}
+.highlighted__title {
+}
+.highlighted__text {
+    margin-bottom: 20px;
+}
+.highlighted-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.highlighted-block__left {
+    width: 50%;
+}
+.highlighted-block__left-title,
+.highlighted-block__right-title {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.highlighted-block__item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+.highlighted-block__item:nth-child(even){
+    background-color: #247ACF;  
+}
+.highlighted-block__item:nth-child(odd){
+    background-color: #ff7b32;
+}
+.highlighted-block__right {
+    width: 50%;
+}
+
+
+
+
+//migrations 
+.migrations {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.migrations__title {
+}
+.subtitle {
+}
+.migrations__text {
+    margin-bottom: 20px;
+}
+.migrations__list {
+    margin-bottom: 40px;
+}
+.migrations__list-item {
+    position: relative;
+    margin: 0 0 15px 30px;
+}
+.migrations__list-item::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    top: 1px;
+    background: url('../images/administrator/arrow-icon.svg') no-repeat;
+}
+.migrations__bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.migrations__btn,
+.migrations__bottom-link {
+    max-width: 350px;
+    width: 100%;
+}
+
+
+
+
+
+
+.control {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.control__subtitle {
+    margin-bottom: 40px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.control__list-item {
+    position: relative;
+    margin: 0 0 25px 30px;  
+}
+.control__list-item::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    top: 1px;
+    background: url('../images/administrator/arrow-icon.svg') no-repeat;
+}
+
+
+
+.questions {
+    padding: 8rem 0;
+}
+.questions__wrapper {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 25px;
+    background-color: #247ACF;
+    border-radius: 20px;
+}
+.questions-accardion__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.questions-accardion__title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #fff;
+}
+.questions-accardion__circle {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ff7b32;
+}
+.questions-accardion__circle::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.questions-accardion__circle::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 20px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in;
+}
+.questions-accardion__btn.btn-active .questions-accardion__circle::before{
+    display: none;
+    transition: all .5s ease-in;
+}
+.questions-accardion__btn.btn-active .questions-accardion__circle{
+    background-color: #ff7b32;
+}
+.questions-accardion__content {
+    display: none;
+    padding-top: 10px;
+}
+.questions-accardion__text {
+    color: #fff;
+    line-height: 1.4;
+}

@@ -14,7 +14,7 @@
     background: url('../images/home/heading-left.png') no-repeat;  
 }
 .header__inner{
-    padding: 2.3rem;
+    padding: 2.3rem 0;
     width: 100%;
     position: fixed;
     z-index: 3;
@@ -37,7 +37,7 @@
 }
 .menu__list li{
     position: relative;
-    z-index: 4;
+
 }
 .menu__list li a{
     line-height: 1.2;
@@ -180,6 +180,11 @@ ul.sub-menu{
     display: flex;
     justify-content: flex-end;
     gap: 5px;
+}
+.header-heading__box--mobile,
+.header-top__info-phone--mobile,
+.header-top__info-btn--mobile{
+    display: none;
 }
 .header-heading__item {
     width: 160px;

@@ -1,0 +1,238 @@
+.administrator {
+    padding: 8rem 0;
+    background: url('../images/administrator/administrator-bg.png') no-repeat;
+}
+.administrator__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.administrator-box {
+    max-width: 90rem;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.administrator-box__item {
+    width: calc(100% / 2 - 20px);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.administrator-box__item-text {
+    font-size: 20px;
+}
+.administrator__btn {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+//specialist
+.specialist {
+    padding-top: 8rem;
+}
+.specialist__title {
+    margin-bottom: 20px;
+}
+.specialist__text {
+    margin-bottom: 40px;
+}
+.specialist-block__item {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.specialist-block__item-img img{
+    min-width: 90px;
+}
+.specialist-block__content {
+    max-width: 100rem;
+}
+.specialist-block__content-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.specialist-block__content-text {
+    line-height: 1.4;
+}
+.specialist-block__item-price {
+    color: #247ACF;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.specialist-block__item-price span{
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+}
+
+
+
+//scroll
+.scroll {
+    padding-top: 8rem;
+}
+.scroll__title {
+    text-align: center;
+}
+.scroll-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.scroll-block__list {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.scroll-block__list-item {
+    position: relative;
+    width: calc(100% / 2 - 40px);
+}
+.scroll-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    left: -30px;
+    background: url('../images/administrator/arrow-icon.svg') no-repeat;
+}
+.scroll-block__img {
+    width: 33%;
+}
+
+
+
+//does
+.does {
+    padding-top: 8rem;
+}
+.does__title {
+    text-align: center;
+}
+.does-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.does-block__item {
+    display: flex;
+    gap: 10px;
+    width: calc(100% / 2 - 15px);
+}
+.does-block__item-img {
+    min-width: 20px;
+}
+.does-block__item-text {
+    line-height: 1.4;
+}
+.does-block__item-text span{
+    font-weight: 700;
+}
+
+
+//coming
+.coming {
+    padding: 8rem;
+}
+.coming__text {
+    margin-bottom: 40px;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.coming-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.coming-block__item {
+    width: calc(100% / 3 - 35px);
+}
+.coming-block__item-img {
+    margin-bottom: 20px;
+}
+.coming-block__item-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.coming-block__item-text {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+
+.administrator-user {
+    padding: 3rem 0 8rem 0;
+    background-color: #f5f5f5
+}
+.administrator-user__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.administrator-user__content {
+    width: 60%;
+}
+.administrator-user__content-title {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.administrator-user__content-text {
+    line-height: 1.4;
+}
+.administrator-user__img {
+    width: 40%;
+}
+
+
+
+//interest
+.interest {
+    padding-bottom: 8rem;
+}
+.interest__title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.interest-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.interest-block__item {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    width: calc(100% / 3 - 20px);
+    box-shadow: 1px 1px 1px 2px rgba(45, 52, 79, 0.2);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.interest-block__item-img {
+    margin-bottom: 20px;
+}
+.interest-block__item-img img{
+    margin: 0 auto;
+}
+.interest-block__item-text {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+}
+.interest-block__item-btn {
+    max-width: 300px;
+    width: 100%;
+    margin: auto auto 0 auto;
+}

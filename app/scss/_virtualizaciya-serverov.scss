@@ -1,0 +1,205 @@
+.virtualization {
+    padding: 8rem 0;
+    background: url('../images/virtualization/virtualization-bg.webp') no-repeat;
+}
+.virtualization__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.virtualization-box {
+    max-width: 90rem;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.virtualization-box__item {
+    width: calc(100% / 2 - 20px);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.virtualization-box__item-text {
+    font-size: 20px;
+}
+.virtualization-box__item-img img{
+    min-width: 20px;
+}
+.virtualization__btn {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+//virtualizationwhat
+.virtualizationwhat {
+    padding: 8rem;
+}
+.virtualizationwhat-block {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.virtualizationwhat-block__content {
+    width: 60%;
+}
+.virtualizationwhat-block__content-title {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.virtualizationwhat-block__content-text {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.virtualizationwhat-block__img {
+    width: 40%;
+}
+
+
+//virtualization-advantages
+.virtualization-advantages {
+    padding: 8rem;
+    background-color: #f5f5f5;
+}
+.virtualization-advantages__title {
+    text-align: center;
+}
+.virtualization-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.virtualization-block__item {
+    width: calc(100% / 2 - 40px);
+}
+.virtualization-block__item-title {
+    position: relative;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.virtualization-block__item-title::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    top: 3px;
+    background: url('../images/administrator/arrow-icon.svg') no-repeat;
+}
+.virtualization-block__item-text {
+    line-height: 1.4;
+}
+
+
+//virtualization-price
+.virtualization-price {
+    padding: 8rem;
+}
+.virtualization-price__title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.virtualization-price__subtitle {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.virtualization-price__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.virtualization-price__item-img img{
+    min-width: 90px;
+}
+.virtualization-price__content {
+    max-width: 100rem;
+}
+.virtualization-price__content-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.virtualization-price__content-text {
+    line-height: 1.4;
+}
+.virtualization-price__item-price {
+    color: #247ACF;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.virtualization-price__item-price span{
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+}
+
+
+
+
+
+//virtualization-offer
+.virtualization-offer {
+    padding: 8rem;
+    background: url('../images/virtualization/virtualization-predloshenie.jpg') no-repeat;
+}
+.virtualization-offer__title {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.virtualization-offer__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.virtualization-offer__btn {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+//virtualization-order
+.virtualization-order {
+    padding: 8rem 0;
+}
+.virtualization-order__title {
+    text-align: center;
+}
+.virtualization-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.virtualization-info__list {
+    width: 60%;
+}
+.virtualization-info__list-item {
+    position: relative;
+    margin: 0 0 30px 40px;
+}
+.virtualization-info__list-item::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    left: -30px;
+    background: url('../images/administrator/arrow-icon.svg') no-repeat;
+}
+.virtualization-info__img {
+    width: 40%;
+}

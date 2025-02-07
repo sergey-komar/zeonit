@@ -39,7 +39,11 @@ button:hover{
 }
 .title{
 	margin-bottom: 40px;
-	font-size: 4.8rem;
+	font-size: 4.4rem;
+}
+.subtitle{
+	font-size: 4rem;
+	margin-bottom: 40px;
 }
 .btn{
 	display: block;
@@ -80,6 +84,7 @@ button:hover{
 .breadcrumbs__list{
 	display: flex;
 	gap: 20px;
+	flex-wrap: wrap;
 }
 .breadcrumbs__list li:last-child{
 	color: #ff7b32;

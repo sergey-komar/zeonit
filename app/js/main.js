@@ -2,18 +2,48 @@ $(function () {
     $(".documents-slider__inner").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        
+        responsive: [
+            {
+              breakpoint: 1000,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 750,
+              settings: {
+                slidesToShow: 1,
+              }
+            },
+           
+          ]
       });
-      
+
+
+
+      $('.questions-accardion__btn').on('click', function(){
+        $(this).next().slideToggle(500); 
+     });
       
 })
+
 
 
 window.addEventListener('DOMContentLoaded', () => {
 
 
-    
+    const menu = document.querySelector(".menu");
+    const mobile = document.querySelector(".nav-icon");
 
+    if(mobile){
+        mobile.addEventListener("click", function () {
+            this.classList.toggle("nav-icon--active");
+            menu.classList.toggle("nav--active");
+          });
+    }
+   
+
+    
     const modalBtn = document.querySelectorAll('.btn-click');
     const modal = document.querySelector('.modal');
     const modalCloseBtn = document.querySelector('.modal__close');
@@ -101,6 +131,16 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
 
+
+        const accardionBtn = document.querySelectorAll('.questions-accardion__btn');
+
+        if(accardionBtn){
+        accardionBtn.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('btn-active');
+            })
+        })
+        }
 
         const tabsItem = document.querySelector('.tabs__item');
         const tabsItemBtn = document.querySelectorAll('.tabs__item-btn');

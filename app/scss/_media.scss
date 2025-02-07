@@ -10,3 +10,303 @@
         background-size: auto;
     }
 }
+
+@media(max-width: 1250px){
+    .documents-slider__item{
+        width: 300px;
+    }
+    .elements-block__item{
+        width: calc(100% / 3 - 15px);
+    }
+}
+
+@media(max-width: 1050px){
+    .popular-block__item{
+        width: calc(100% / 2 - 24px);
+    }
+}
+
+
+@media(max-width: 968px){
+    .title{
+        font-size: 34px;
+    }
+    .advantages{
+        padding: 50px 0;
+        clip-path: none;
+    }
+    .advantages-block{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .advantages-block__left,
+    .advantages-block__right,
+    .advantages-block__center{
+        width: 100%;
+        text-align: center;
+    }
+    .advantages-block__left-item:nth-child(1), .advantages-block__left-item:nth-child(4), .advantages-block__right-item:nth-child(2), .advantages-block__right-item:nth-child(3){
+        width: 100%;
+        margin-left: 0;
+       
+    }
+    .clients-block__item{
+        width: calc(100% / 2 - 20px);
+    }
+    .discuss-block{
+        flex-direction: column;
+    }
+    .discuss-block__form,
+    .discuss-block__content{
+        width: 100%;
+    }
+    .discuss-block__content-img img{
+        margin: 0 auto;
+    }
+    .footer-top,
+    .footer-bottom{
+        flex-wrap: wrap;
+    }
+    .footer-top__right{
+        width: 100%;
+        text-align: left;
+    }
+    .reasons-block__item{
+        width: calc(100% / 2 - 40px);
+    }
+    .about-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-box__item{
+        width: calc(100% / 2 - 20px);
+    }
+    .elements-block__item {
+        width: calc(100% / 2 - 15px);
+    }
+
+}
+
+
+
+@media(max-width: 750px){
+    .popular-block__item,
+    .clients-block__item,
+    .reasons-block__item,
+    .about-block__content,
+    .documents-slider__item {
+        width: 100%;
+    }
+    .about-block{
+        flex-direction: column;
+    }
+    .partners-block{
+        flex-wrap: wrap;
+    }
+    .partners-block__item{
+        width: calc(100% / 2 - 20px);
+    }
+    .partners-block__item img{
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+@media(max-width: 550px){
+    .title{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .btn{
+        height: 45px;
+        line-height: 45px;
+        max-width: 100%;
+    }
+    .popular,
+    .clients,
+    .discuss,
+    .reviews-page,
+    .elements,
+    .documents-slider,
+    .partners{
+        padding: 3rem 0;
+    }
+    .popular-block__content-text,
+    .advantages-block__left-item-text,
+    .clients-block__item-text,
+    .discuss-block__content-text,
+    .reasons-block__item-text,
+    .reviews-page__content-text p,
+    .tabs__list li,
+    .about-box__item-text,
+    .about-desc__item-text{
+        font-size: 16px;
+    }
+    .breadcrumbs{
+        padding: 15px 0;
+    }
+    .breadcrumbs__list li a{
+        font-size: 14px;
+    }
+    .popular-block__item{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .popular-block__item-img{
+        width: auto;
+        order: -1;
+    }
+    .popular-block__content{
+        width: 100%;
+    }
+    .popular-block__content-title{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .advantages-block__left-item-title, .advantages-block__right-item-title{
+        font-size: 24px;
+    }
+    .clients-block__item-text{
+        margin-bottom: 20px;
+    }
+    .clients-block__item-name{
+        font-size: 18px;
+    }
+    .clients-block__item-job{
+        font-size: 14px;
+    }
+    .discuss-block__bottom{
+        flex-direction: column;
+    }
+    .discuss-block__form-input{
+        width: 100%;
+    }
+    .discuss-block__content-title{
+        font-size: 24px;
+    }
+    .discuss-block__top{
+        margin-bottom: 15px;
+    }
+    .footer-bottom__left-btn{
+        width: 100%;
+    }
+    .footer-top, .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+    }
+    .footer-top__right{
+        text-align: center;
+    }
+    .footer-bottom__left{
+        width: 100%;
+    }
+    .footer{
+        padding: 5rem 0;
+    }
+    .footer-top__menu li{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer-top{
+        margin-bottom: 35px;
+    }
+    .footer-top__left-text{
+        font-size: 14px;
+    }
+    .reasons-block__item-title{
+        margin-bottom: 10px;
+    }
+    .reasons-block{
+        gap: 20px;
+    }
+    .reasons{
+        padding-bottom: 3rem;
+    }
+    .reviews-page__content,
+    .tabs__inner{
+        flex-direction: column;
+    }
+    .reviews-page__content-img img{
+        width: 50px;
+    }
+    .reviews-page__item-job{
+        font-size: 14px;
+    }
+    .reviews-page__item{
+        margin-bottom: 20px;
+    }
+    .about-box__item,
+    .tabs__item,
+    .tabs__wrapper,
+    .about-block__content-img{
+        width: 100%;
+    }
+    .tabs__item-btn::before{
+        display: none;
+    }
+    .tabs__item{
+        padding-bottom: 10px;
+        margin-left: 0;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        overflow: auto;
+    }
+
+    .tabs__item-btn{
+        min-width: 200px;
+        text-align: center;
+        padding: 0 5px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #247ACF;
+        border-radius: 6px;
+        color: #fff;
+    }
+   .active-tabs{
+    background: #ff7b32;
+   }
+    .tabs__inner{
+        gap: 10px;
+    }
+    .about-box__item-title,
+    .about-block__content-text{
+        font-size: 18px;
+    }
+    .about-box{
+        margin-bottom: 30px;
+    }
+    .about-desc__item-title{
+        font-size: 20px;
+    }
+    .tabs{
+        padding-bottom: 40px;
+    }
+    .tabs__content{
+        padding-left: 10px;
+    }
+    .elements-block__item{
+        width: 100%;
+    }
+    .documents__title h1{
+        font-size: 27px;
+    }
+    .licenses-box__item{
+        flex-direction: column;
+    }
+    .partners-block__item{
+        width: 100%;
+    }
+    .documents__title{
+        margin-bottom: 20px;
+    }
+}
