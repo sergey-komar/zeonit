@@ -35,7 +35,7 @@
 
 //virtualizationwhat
 .virtualizationwhat {
-    padding: 8rem;
+    padding: 8rem 0;
 }
 .virtualizationwhat-block {
     display: flex;
@@ -61,7 +61,7 @@
 
 //virtualization-advantages
 .virtualization-advantages {
-    padding: 8rem;
+    padding: 8rem 0;
     background-color: #f5f5f5;
 }
 .virtualization-advantages__title {
@@ -99,7 +99,7 @@
 
 //virtualization-price
 .virtualization-price {
-    padding: 8rem;
+    padding: 8rem 0;
 }
 .virtualization-price__title {
     margin-bottom: 40px;
@@ -132,6 +132,7 @@
     line-height: 1.4;
 }
 .virtualization-price__item-price {
+    width: 100%;
     color: #247ACF;
     font-size: 3rem;
     font-weight: 600;
@@ -148,7 +149,7 @@
 
 //virtualization-offer
 .virtualization-offer {
-    padding: 8rem;
+    padding: 8rem 0;
     background: url('../images/virtualization/virtualization-predloshenie.jpg') no-repeat;
 }
 .virtualization-offer__title {

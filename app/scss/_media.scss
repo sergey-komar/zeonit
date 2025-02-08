@@ -54,7 +54,13 @@
     .clients-block__item{
         width: calc(100% / 2 - 20px);
     }
-    .discuss-block{
+    .discuss-block,
+    .virtualization-info,
+    .administrator-user__box,
+    .business-block,
+    .preparation-block,
+    .basic-block,
+    .highlighted-block{
         flex-direction: column;
     }
     .discuss-block__form,
@@ -65,8 +71,19 @@
         margin: 0 auto;
     }
     .footer-top,
-    .footer-bottom{
+    .footer-bottom,
+    .virtualization-price__item,
+    .specialist-block__item,
+    .extended-block,
+    .commissioning-block,
+    .technical-block__item{
         flex-wrap: wrap;
+    }
+    .about-box,
+    .interest-block,
+    .installation-block{
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .footer-top__right{
         width: 100%;
@@ -75,18 +92,58 @@
     .reasons-block__item{
         width: calc(100% / 2 - 40px);
     }
-    .about-box{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     .about-box__item{
         width: calc(100% / 2 - 20px);
     }
     .elements-block__item {
         width: calc(100% / 2 - 15px);
     }
-
+    .virtualization-block__item,
+    .virtualization-info__list,
+    .scroll-block__list-item,
+    .does-block__item,
+    .scroll-block__list,
+    .administrator-user__content,
+    .business-block__content,
+    .preparation-block__content,
+    .basic-block__content,
+    .basic-block__list-item,
+    .safety__list-item,
+    .extended-block__content,
+    .commissioning-block__content,
+    .technical-block__item-price,
+    .highlighted-block__left,
+    .highlighted-block__right{
+        width: 100%;
+    }
+    .virtualization-info__list-item{
+        width: auto;
+    }
+    .interest-block__item,
+    .coming-block__item,
+    .installation-block__item{
+        width: calc(100% / 2 - 20px);
+    }
+    .specialist-block__item-price{
+        text-align: unset;
+    }
+    .scroll-block__img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .basic-block__img{
+        order: 1;
+    }
+    .basic-block__list-item{
+        margin-left: 30px;
+    }
 }
+
+
+
+
+
+
 
 
 
@@ -95,10 +152,25 @@
     .clients-block__item,
     .reasons-block__item,
     .about-block__content,
-    .documents-slider__item {
+    .documents-slider__item,
+    .virtualizationwhat-block__content,
+    .interest-block__item,
+    .administrator-box__item,
+    .coming-block__item,
+    .acquaintance-block__item,
+    .business-block__info-link,
+    .setting-block__item,
+    .installation-block__item,
+    .rent-block__content,
+    .tabs__item,
+    .tabs__wrapper {
         width: 100%;
     }
-    .about-block{
+    .about-block,
+    .virtualizationwhat-block,
+    .rent-block,
+    .migrations__bottom,
+    .tabs__inner{
         flex-direction: column;
     }
     .partners-block{
@@ -107,10 +179,77 @@
     .partners-block__item{
         width: calc(100% / 2 - 20px);
     }
-    .partners-block__item img{
+    .partners-block__item img,
+    .virtualizationwhat-block__img{
         margin: 0 auto;
     }
+    .telephony,
+    .business,
+    .acquaintance,
+    .preparation,
+    .setting,
+    .installation,
+    .basic,
+    .safety,
+    .extended,
+    .commissioning,
+    .technical,
+    .models,
+    .highlighted,
+    .rent,
+    .migrations,
+    .control,
+    .questions,
+    .advantages{
+        padding: 20px 0;
+    }
+    .virtualizationwhat-block__img,
+    .virtualization-info__img,
+    .administrator-user__img,
+    .business-block__img,
+    .preparation-block__img,
+    .basic-block__img,
+    .extended-block__img,
+    .commissioning-block__img,
+    .rent-block__img{
+        width: 65%;
+        margin: 0 auto;
+    }
+    .migrations__bottom-link{
+        max-width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    .tabs__item-btn::before{
+        display: none;
+    }
+    .tabs__item{
+        padding-bottom: 10px;
+        margin-left: 0;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        overflow: auto;
+    }
 
+    .tabs__item-btn{
+        min-width: 200px;
+        text-align: center;
+        padding: 0 5px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #247ACF;
+        border-radius: 6px;
+        color: #fff;
+    }
+   .active-tabs{
+    background: #ff7b32;
+   }
+    .tabs__inner{
+        gap: 10px;
+    }
 }
 
 
@@ -118,6 +257,10 @@
 
 
 @media(max-width: 550px){
+    html,
+    body{
+        font-size: 16px;
+    }
     .title{
         margin-bottom: 20px;
         font-size: 24px;
@@ -127,14 +270,35 @@
         line-height: 45px;
         max-width: 100%;
     }
+    .subtitle{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
     .popular,
     .clients,
     .discuss,
     .reviews-page,
     .elements,
     .documents-slider,
-    .partners{
-        padding: 3rem 0;
+    .partners,
+    .virtualization,
+    .virtualizationwhat,
+    .virtualization-advantages,
+    .virtualization-price,
+    .virtualization-offer,
+    .virtualization-order,
+    .administrator,
+    .coming{
+        padding: 30px 0;
+    }
+    .specialist,
+    .scroll,
+    .does{
+        padding-top: 30px;
+    }
+    .reasons,
+    .administrator-user{
+        padding-bottom: 30px;
     }
     .popular-block__content-text,
     .advantages-block__left-item-text,
@@ -144,14 +308,135 @@
     .reviews-page__content-text p,
     .tabs__list li,
     .about-box__item-text,
-    .about-desc__item-text{
+    .about-desc__item-text,
+    .virtualizationwhat-block__content-text,
+    .virtualization-offer__text,
+    .administrator-box__item-text,
+    .telephony-box__item-text,
+    .rent-block__content-text,
+    .interest-block__item-btn{
         font-size: 16px;
+        line-height: 1.4;
+    }
+    .virtualization__title,
+    .documents__title h1,
+    .administrator__title,
+    .telephony__title,
+    .rent-block__content-title{
+        font-size: 27px;
+    }
+    .about-desc__item-title,
+    .virtualizationwhat-block__content-title,
+    .virtualization-price__title,
+    .virtualization-offer__title,
+    .interest__title,
+    .coming__text,
+    .administrator-user__content-title,
+    .acquaintance__title{
+        font-size: 21px;
+    }
+    .virtualization-price__subtitle,
+    .interest-block__item-text,
+    .clients-block__item-name,
+    .installation__text,
+    .control__subtitle,
+    .questions-accardion__title,
+    .specialist-block__content-title,
+    .licenses-box__item-text,
+    .documents-slider__item-title{
+        font-size: 18px;
+    }
+    .virtualizationwhat-block__content-title,
+    .virtualization-price__title,
+    .virtualization-offer__title,
+    .virtualization-offer__text,
+    .virtualization-info__list-item,
+    .interest__title,
+    .clients-block__item-text,
+    .reviews-page__item,
+    .specialist-block__item,
+    .specialist__text,
+    .administrator-user__content-title,
+    .acquaintance__title,
+    .business-block__content-text p,
+    .setting__text,
+    .installation__text,
+    .safety__text,
+    .extended-block__content-text,
+    .extended-block__list,
+    .commissioning-block__item,
+    .technical-block__item,
+    .basic-block__content-text,
+    .rent-block__content-title,
+    .migrations__list,
+    .control__subtitle,
+    .discuss-block__form-textarea,
+    .control__list-item,
+    .about-desc__item,
+    .administrator__title,
+    .coming__text{
+        margin-bottom: 20px;
+    }
+    .virtualizationwhat-block,
+    .virtualization-block,
+    .coming-block,
+    .acquaintance-block,
+    .setting-block,
+    .preparation-block,
+    .basic-block__list,
+    .basic-block,
+    .extended-block,
+    .commissioning-block,
+    .installation-block,
+    .highlighted-block,
+    .virtualization-info{
+        gap: 20px;
+    }
+    .about-box__item,
+    .tabs__item,
+    .tabs__wrapper,
+    .about-block__content-img{
+        width: 100%;
+    }
+    
+    .specialist-block__item-img,
+    .coming-block__item-img,
+    .installation-block__item-img,
+    .technical-block__item-img,
+    .virtualization-price__item-img{
+        margin-bottom: 10px;
+        width: 60px;
+    }
+    .specialist-block__item-img img,
+    .coming-block__item-img img,
+    .installation-block__item-img img,
+    .technical-block__item-img img,
+    .virtualization-price__item-img img{
+        min-width: 60px;
+    }
+    .specialist-block__item-price{
+        font-size: 24px;
+    }
+    .interest{
+        padding-top: 20px;
+        padding-bottom: 40px;
     }
     .breadcrumbs{
         padding: 15px 0;
     }
-    .breadcrumbs__list li a{
+    .breadcrumbs__list{
+        gap: 10px;
+    }
+    .breadcrumbs__list li::after{
+        right: -9px;
+    }
+    .breadcrumbs__list li a,
+    .clients-block__item-job,
+    .footer-top__left-text{
         font-size: 14px;
+    }
+    .virtualization-info__list-item{
+        margin-left: 30px;
     }
     .popular-block__item{
         flex-direction: column;
@@ -170,15 +455,6 @@
     }
     .advantages-block__left-item-title, .advantages-block__right-item-title{
         font-size: 24px;
-    }
-    .clients-block__item-text{
-        margin-bottom: 20px;
-    }
-    .clients-block__item-name{
-        font-size: 18px;
-    }
-    .clients-block__item-job{
-        font-size: 14px;
     }
     .discuss-block__bottom{
         flex-direction: column;
@@ -217,17 +493,15 @@
     .footer-top{
         margin-bottom: 35px;
     }
-    .footer-top__left-text{
-        font-size: 14px;
-    }
     .reasons-block__item-title{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .reasons-block__item-img{
         margin-bottom: 10px;
     }
     .reasons-block{
         gap: 20px;
-    }
-    .reasons{
-        padding-bottom: 3rem;
     }
     .reviews-page__content,
     .tabs__inner{
@@ -239,45 +513,8 @@
     .reviews-page__item-job{
         font-size: 14px;
     }
-    .reviews-page__item{
-        margin-bottom: 20px;
-    }
-    .about-box__item,
-    .tabs__item,
-    .tabs__wrapper,
-    .about-block__content-img{
-        width: 100%;
-    }
-    .tabs__item-btn::before{
-        display: none;
-    }
-    .tabs__item{
-        padding-bottom: 10px;
-        margin-left: 0;
-        display: flex;
-        gap: 10px;
-        justify-content: space-between;
-        overflow: auto;
-    }
-
-    .tabs__item-btn{
-        min-width: 200px;
-        text-align: center;
-        padding: 0 5px;
-        height: 30px;
-        line-height: 30px;
-        font-size: 14px;
-        font-weight: 600;
-        background-color: #247ACF;
-        border-radius: 6px;
-        color: #fff;
-    }
-   .active-tabs{
-    background: #ff7b32;
-   }
-    .tabs__inner{
-        gap: 10px;
-    }
+    
+    
     .about-box__item-title,
     .about-block__content-text{
         font-size: 18px;
@@ -285,9 +522,7 @@
     .about-box{
         margin-bottom: 30px;
     }
-    .about-desc__item-title{
-        font-size: 20px;
-    }
+    
     .tabs{
         padding-bottom: 40px;
     }
@@ -297,16 +532,66 @@
     .elements-block__item{
         width: 100%;
     }
-    .documents__title h1{
-        font-size: 27px;
-    }
     .licenses-box__item{
         flex-direction: column;
     }
-    .partners-block__item{
+    .partners-block__item,
+    .virtualization-box__item{
         width: 100%;
     }
     .documents__title{
         margin-bottom: 20px;
+    }
+    .virtualization-box__item-text{
+        font-size: 16px;
+    }
+    .interest-block__item{
+        padding: 20px;
+    }
+    .virtualization-offer__btn{
+        font-size: 14px;
+    }
+    .specialist-block__item{
+        gap: 0px;
+    }
+    .telephony-box__item{
+        gap: 10px;
+    }
+    .setting-block__item-price,
+    .technical-block__item-price,
+    .specialist-block__item-price,
+    .virtualization-price__item-price{
+        font-size: 22px;
+    }
+    .setting-block__item-price span,
+    .technical-block__item-price span,
+    .specialist-block__item-price span,
+    .virtualization-price__item-price span{
+        font-size: 18px;
+    }
+    .setting-block__item-price,
+    .specialist-block__content-text{
+        margin-bottom: 5px;
+    }
+    .extended-block__list-item{
+        margin-bottom: 0;
+    }
+    .technical-block__item{
+        gap: 0px;
+    }
+    .questions__wrapper{
+        padding: 15px;
+    }
+    .elements-block__item{
+        padding: 10px;
+    }
+    .virtualization-price__item{
+        gap: 5px;
+    }
+    .business-block__info{
+        gap: 25px;
+    }
+    .discuss-block__form-textarea{
+        height: 100px;
     }
 }

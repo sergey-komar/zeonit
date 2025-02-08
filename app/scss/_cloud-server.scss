@@ -185,13 +185,13 @@
     cursor: pointer;
 }
 .questions-accardion__title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.2rem;
     color: #fff;
 }
 .questions-accardion__circle {
     position: relative;
-    width: 32px;
+    min-width: 32px;
     height: 32px;
     border-radius: 50%;
     background-color: #ff7b32;
