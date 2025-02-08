@@ -1,0 +1,165 @@
+.virtual-machines-page {
+    padding: 8rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.virtual-machines {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.virtual-machines__content {
+    width: 50%;
+}
+.virtual-machines__content-title {
+    margin-bottom: 40px;
+    font-size: 5rem; 
+}
+.virtual-machines__content-text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.virtual-machines__img{
+    width: 50%;
+}
+.virtual-machines__content-btn {
+    max-width: 350px;
+    width: 100%;
+}
+.virtual-machines__content-btn:hover{
+    background: #a13a03;
+}
+
+
+
+//encryption
+.encryption {
+    padding: 8rem 0;
+}
+.encryption__title {
+    text-align: center;
+}
+.encryption-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.encryption-block__content {
+    width: 50%;
+}
+.encryption-block__content-text {
+    margin-bottom: 20px;
+}
+.encryption-block__img {
+    width: 50%;
+}
+.encryption-block__img img{
+    margin-left: auto;
+}
+.encryption__list {
+    margin-bottom: 40px;
+}
+.encryption__list-item {
+    list-style: decimal;
+    margin: 0 0 20px 20px;
+}
+.encryption__list-item span{
+    font-weight: 700;
+}
+.encryption-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.encryption__material {
+    width: 50%;
+}
+.encryption__material-title,
+.encryption-price__title {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.encryption__material-link {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #247ACF;
+}
+.encryption__material-link:hover{
+    color: #ff7b32;
+}
+.encryption__material-list li{
+    display: flex;
+    list-style: decimal;
+    gap: 10px;
+}
+.encryption-price {
+    width: 50%;
+}
+.encryption-price__subtitle,
+.encryption-price__item {
+    display: flex;
+    justify-content: space-between;
+}
+.encryption-price__subtitle p,
+.encryption-price__item-title,
+.encryption-price__item-text{
+    width: 50%;
+    text-align: center;
+}
+.encryption-price__subtitle p{
+    margin-bottom: 5px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.encryption-price__item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #247ACF;
+    color: #fff;
+}
+
+
+
+.trust {
+    padding: 8rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.trust__title {
+    text-align: center;
+}
+.trust-block {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.trust-block__item {
+    margin-bottom: 20px;
+    width: calc(100% / 2 - 20px);
+    display: flex;
+    gap: 20px;
+}
+.trust-block__item-img img{
+    min-width: 40px;
+}
+.trust-block__content {
+}
+.trust-block__content-title {
+}
+.trust-block__content-text {
+}
+.trust__btn {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+.trust__btn:hover{
+    background: #a13a03;
+}

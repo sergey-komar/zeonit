@@ -1,0 +1,112 @@
+.audit {
+    padding: 8rem 0;
+    background-color: #247ACF;
+}
+.audit-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    color: #fff;
+}
+.audit-block__content {
+    width: 50%;
+}
+.audit__title {
+    margin-bottom: 40px;
+    font-size: 5rem; 
+}
+.audit__text {
+    font-size: 20px;
+}
+.audit-block__img {
+    width: 50%;
+}
+
+
+
+//audit-tabs-page
+.audit-tabs-page {
+    padding: 8rem 0;
+}
+.tabs-audit__item {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.tab-audit__item-btn {
+    padding: 20px;
+    width: calc(100% / 3);
+    background-color: #247ACF;
+    color: #fff;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.active-audit{
+    background-color: #ff7b32;
+}
+.tabs-audit__content-title {
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: 700;
+}
+.hide-audit{
+    display: none;
+}
+.show-audit{
+    display: block;
+}
+.tabs-audit__box {
+    margin-bottom: 30px;
+}
+.tabs-audit__box-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff7b32;
+}
+.tabs-audit__list-item {
+    margin: 0 0 20px 20px;
+    list-style: decimal;
+    font-weight: 600;
+}
+.tabs-audit__btn {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+//benefits
+.benefits {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.benefits__title {
+    text-align: center;
+}
+.benefits-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.benefits-block__item {
+    width: calc(100% / 3 - 20px);
+}
+.benefits-block__item-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #247ACF;
+}
+.our-clients {
+    padding: 8rem 0;
+}
+.questions-accardion__text li{
+    margin-bottom: 20px;
+    list-style: decimal;
+}

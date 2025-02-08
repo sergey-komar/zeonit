@@ -20,6 +20,15 @@ $(function () {
       });
 
 
+      $(".our-silder").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+       
+      });
+
+
 
       $('.questions-accardion__btn').on('click', function(){
         $(this).next().slideToggle(500); 
@@ -182,6 +191,52 @@ window.addEventListener('DOMContentLoaded', () => {
         tabsShow(0);
     
        }
+
+
+
+
+        const tabsItemAudit = document.querySelector('.tabs-audit__item');
+        const tabsItemBtnAudit = document.querySelectorAll('.tab-audit__item-btn');
+        const tabsContentAudit = document.querySelectorAll('.tabs-audit__content');
+
+        function tabsHideAudit(){
+            tabsContentAudit.forEach(item => {
+                item.classList.add('hide-audit');
+                item.classList.remove('show-audit');
+            });
+
+            tabsItemBtnAudit.forEach(btn =>{
+                btn.classList.remove('active-audit');
+            })
+        }
+        function tabsShowAudit(i){
+            tabsContentAudit[i].classList.add('show-audit');
+            tabsContentAudit[i].classList.remove('hide-audit');
+            tabsItemBtnAudit[i].classList.add('active-audit');
+        }
+
+        if(tabsItemAudit && tabsItemBtnAudit && tabsContentAudit){
+            tabsItemAudit.addEventListener('click', (e)=>{
+                const target = e.target;
+    
+                if(target && target.classList.contains('tab-audit__item-btn')){
+                    tabsItemBtnAudit.forEach((item, i)=>{
+                        if(target == item){
+                            tabsHideAudit();
+                            tabsShowAudit(i);
+                        }
+    
+                    })
+    
+                }
+            })
+    
+            tabsHideAudit();
+            tabsShowAudit(0);
+        }
+       
+
+
             
 
        

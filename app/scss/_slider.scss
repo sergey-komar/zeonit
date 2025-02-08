@@ -76,4 +76,43 @@
 .documents-slider__inner .slick-next:hover{
     background-color: #a13a03;
 }
+
+
+
+//
+.our-silder__item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.our-silder__item-img {
+    width: 60%;
+}
+.our-silder__content {
+    width: 40%;
+}
+.our-silder__content-title {
+    margin-bottom: 40px;
+    font-size: 3.7rem;
+    font-weight: 600;
+}
+.our-silder__content-text {
+    font-size: 20px;
+}
+.our-silder .slick-dots{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
   
+.our-silder .slick-dots li button{
+    font-size: 0;
+    border: 0;
+    padding: 0;
+    width: 90px;
+    height: 6px;
+    background-color: #247ACF;
+}
+.our-silder .slick-dots li.slick-active button{
+    background-color: #ff7b32;
+}
