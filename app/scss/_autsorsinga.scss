@@ -1,0 +1,201 @@
+.autsorsinga {
+    padding: 8rem 0;
+    background: url('../images/autsorsinga/autsorsinga-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.autsorsinga__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.autsorsinga-box {
+    max-width: 90rem;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.autsorsinga-box__item {
+    width: calc(100% / 2 - 20px);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.autsorsinga-box__item-img img{
+    min-width: 20px;
+}
+.autsorsinga__btn {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+
+.calcautsorsinga {
+    padding: 8rem 0;
+}
+.autsorsinga__title{
+    text-align: center;
+}
+.autsorsinga-block__wrapper {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(72, 95, 110, 0.16);
+    border-radius: 6px;
+}
+.autsorsinga-block__top {
+   display: flex;
+}
+.autsorsinga-block__top-name,
+.autsorsinga-block__item-name {
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+}
+.autsorsinga-block__top-name:first-child,
+.autsorsinga-block__item-name:first-child{
+    background-color: #247ACF;
+    color: #fff;
+}
+.autsorsinga-block__top-name{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.autsorsinga-block__item {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.autsorsinga-block__item-name img{
+    margin: auto;
+}
+.autsorsinga-block__inner {
+    display: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(72, 95, 110, 0.16);
+    border-radius: 6px;
+}
+.autsorsinga-detailing {
+    width: 75%;
+    margin-left: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(72, 95, 110, 0.16);
+    border-radius: 6px;
+}
+.autsorsinga-detailing__btn {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+   transition: all .4s ease-in;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff7b32;
+}
+.autsorsinga-detailing__btn span{
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 20px;
+    transform: rotate(180deg);
+}
+.autsorsinga-detailing__btn:hover{
+    background-color: #247ACF;
+    transition: all .4s ease-in;
+}
+.autsorsinga-detailing__box {
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.autsorsinga-detailing__box-name {
+    width: 33%;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.autsorsinga-detailing__box-name span{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+}
+.autsorsinga-open{
+    display: block;
+}
+
+
+.specialist--autsorsinga{
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.specialist--autsorsinga .specialist__title,
+.specialist--autsorsinga .specialist__text{
+    text-align: center;
+   
+}
+.specialist--autsorsinga .specialist__text{
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+
+
+//outsourcing
+.outsourcing {
+    padding: 8rem 0;
+}
+.outsourcing__title {
+    text-align: center;
+}
+.outsourcing-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.outsourcing-block__content {
+    width: 60%;
+}
+.outsourcing-block__content-text p{
+    margin-bottom: 20px;
+}
+.outsourcing-block__img {
+    width: 40%;
+}
+
+
+
+//trustoutsourcing
+.trustoutsourcing {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.trustoutsourcing__title {
+    text-align: center;
+}
+.trustoutsourcing-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.trustoutsourcing-block__content {
+    width: 60%;
+}
+.trustoutsourcing-block__content-text p{
+    margin: 0 0 20px 30px;
+    position: relative;
+    line-height: 1.4;
+}
+.trustoutsourcing-block__content-text p::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    left: -30px;
+    background: url('../images/administrator/arrow-icon.svg') no-repeat;
+}
+.trustoutsourcing-block__img{
+    width: 40%;
+}

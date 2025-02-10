@@ -1,0 +1,84 @@
+.sistema {
+    padding: 8rem 0;
+    background: url('../images/sistema/sistema-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.sistema__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.sistema__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.sistema-box {
+    max-width: 90rem;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sistema-box__item {
+    width: calc(100% / 2 - 20px);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.sistema-box__item-img img{
+    min-width: 20px;
+}
+.sistema-box__item-text {
+    max-width: 300px;
+    width: 100%;
+}
+.sistema__btn {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+
+.monitoring {
+    padding: 8rem 0;
+}
+.monitoring-box:nth-child(even) .monitoring-box__img{
+    order: -1;
+}
+.monitoring-box__inner{
+    padding: 8rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.monitoring-box__inner:last-child{
+    padding-bottom: 0;
+}
+.monitoring-box__content {
+    width: 60%;
+}
+.monitoring-box__content-text {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.monitoring-box__list-item {
+    position: relative;
+    margin: 0 0 15px 30px;
+}
+.monitoring-box__list-item::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    left: -30px;
+    background: url('../images/administrator/arrow-icon.svg') no-repeat;
+}
+.monitoring-box__img {
+    width: 40%;
+}
+

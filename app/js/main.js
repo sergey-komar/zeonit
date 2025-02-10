@@ -33,6 +33,13 @@ $(function () {
       $('.questions-accardion__btn').on('click', function(){
         $(this).next().slideToggle(500); 
      });
+
+     if(Fancybox){
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+          });
+     }
+    
       
 })
 
@@ -236,8 +243,15 @@ window.addEventListener('DOMContentLoaded', () => {
         }
        
 
+        const autsorsingaBtn = document.querySelector('.autsorsinga-detailing__btn');
+        const autsorsingaBlock = document.querySelector('.autsorsinga-block__inner');
 
-            
-
+        if(autsorsingaBtn && autsorsingaBlock){
+            autsorsingaBtn.addEventListener('click', () => {
+                autsorsingaBlock.classList.toggle('autsorsinga-open');
+            })
+    
+        }
+       
        
 })
