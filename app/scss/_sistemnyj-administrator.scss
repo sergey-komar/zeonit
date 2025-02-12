@@ -54,7 +54,7 @@
     min-width: 90px;
 }
 .specialist-block__content {
-    max-width: 100rem;
+    width: 85%;
 }
 .specialist-block__content-title {
     margin-bottom: 5px;
@@ -63,9 +63,11 @@
 }
 .specialist-block__content-text {
     line-height: 1.4;
+    color: #333;
+    font-weight: 400;
 }
 .specialist-block__item-price {
-    width: 100%;
+    width: 15%;
     text-align: right;
     color: #247ACF;
     font-size: 3rem;
@@ -78,10 +80,36 @@
 }
 
 
+.zauavka{
+    margin-top: 80px;
+    padding: 40px 0;
+    background: url('../images/administrator/zayavka-bg.webp') no-repeat;
+    background-size: cover;
+}
+.auavka-box{
+    display: flex;
+    gap: 40px;
+}
+.zauavka__title {
+    max-width: 90rem;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.zauavka__btn {
+    max-width: 300px;
+    width: 100%;
+}
+.btn {
+}
+.btn-click {
+}
+
+
 
 //scroll
 .scroll {
-    padding-top: 8rem;
+    padding: 8rem 0;
+    background-color: #f5f5f5;
 }
 .scroll__title {
     text-align: center;
@@ -120,7 +148,7 @@
 
 //does
 .does {
-    padding-top: 8rem;
+    padding: 8rem 0;
 }
 .does__title {
     text-align: center;
@@ -149,6 +177,7 @@
 //coming
 .coming {
     padding: 8rem 0;
+    background-color: #f5f5f5;
 }
 .coming__text {
     margin-bottom: 40px;
@@ -178,8 +207,7 @@
 
 
 .administrator-user {
-    padding: 3rem 0 8rem 0;
-    background-color: #f5f5f5
+    padding: 8rem 0;
 }
 .administrator-user__box {
     display: flex;
@@ -188,24 +216,27 @@
     align-items: center;
 }
 .administrator-user__content {
-    width: 60%;
+    width: 70%;
 }
 .administrator-user__content-title {
     margin-bottom: 30px;
     font-weight: 600;
 }
 .administrator-user__content-text {
+    margin-bottom: 20px;
     line-height: 1.4;
 }
 .administrator-user__img {
-    width: 40%;
+    width: 30%;
 }
 
-
+.reviews-page{
+    background-color: #f5f5f5;
+}
 
 //interest
 .interest {
-    padding-bottom: 8rem;
+    padding: 8rem 0;
 }
 .interest__title {
     margin-bottom: 40px;
