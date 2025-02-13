@@ -79,9 +79,8 @@ button:hover{
 	padding-top: 8rem;
 }
 .breadcrumbs{
-	padding: 4rem 0;
-	background-color: #1f386d;
-	color: #ff7b32;
+	padding: 2rem 0;
+	
 }
 .breadcrumbs__list{
 	display: flex;
@@ -89,13 +88,17 @@ button:hover{
 	flex-wrap: wrap;
 	font-weight: 700;
 	font-size: 16px;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+ul.breadcrumbs__list{
+	padding: 2rem 0;
 }
 .breadcrumbs__list li:last-child{
-	color: #fff;
-	
+	color: #1f386d;
 }
 .breadcrumbs__list li{
 	position: relative;
+	color: #247ACF;
 }
 .breadcrumbs__list li::after {
     position: absolute;
@@ -105,7 +108,7 @@ button:hover{
     right: -12px;
     top: 4px;
 	transform: rotate(25deg);
-	background-color: #fff;
+	background-color: #000;
 }
 .breadcrumbs__list li:last-child::after{
 	display: none;

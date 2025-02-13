@@ -1,0 +1,162 @@
+.dataroom{
+    padding: 4rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.dataroom__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.dataroom__content {
+    width: 50%;
+}
+.dataroom__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.dataroom__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.dataroom__btn {
+    max-width: 380px;
+    width: 100%; 
+}
+.dataroom__btn:hover{
+    background:  #a13a03;
+}
+.dataroom__img {
+    width: 50%; 
+}
+.dataroom__img img{
+    margin-left: auto;
+}
+
+
+
+
+//mitra
+.mitra {
+    padding: 8rem 0;
+}
+.mitra-box__text {
+    margin-bottom: 20px;
+}
+.mitra-box__text span{
+    font-weight: 700;
+}
+.mitra-box__title {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.mitra-box__subtitle {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.mitra-box__list-item {
+    margin: 0 0px 15px 20px;
+    position: relative;
+}
+.mitra-box__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+
+
+
+
+//room
+.room {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.room-block__item {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.room-block__item:nth-child(even) .room-block__img{
+    order: -1;
+}
+.room-block__item:nth-child(odd) .room-block__img img{
+    margin-left: auto;
+}
+.room-block__content {
+    width: 60%;
+}
+.room-block__content-title {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.room-block__content-text p{
+    margin-bottom: 20px;
+}
+.room-block__img {
+    width: 40%;
+}
+.room__list-title {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.room__list-item {
+    margin: 0 0px 15px 20px;
+    position: relative;
+}
+.room__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+
+
+
+
+//whyroom
+.whyroom {
+    padding: 8rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.whyroom__title {
+    text-align: center;
+}
+.whyroom-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+   
+}
+.whyroom-block__item {
+    margin-bottom: 40px;
+    width: calc(100% / 2 - 40px);
+    display: flex;
+    gap: 20px;
+}
+.whyroom-block__item-img img{
+    min-width: 45px;
+}
+.whyroom-block__content-title {
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}

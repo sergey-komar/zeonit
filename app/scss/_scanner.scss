@@ -1,0 +1,275 @@
+.scanner-page {
+    padding: 4rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.scanner-page__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.scanner-page__content {
+    width: 50%;
+}
+.scanner-page__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.scanner-page__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.scanner-page__btn {
+    max-width: 380px;
+    width: 100%; 
+}
+.scanner-page__btn:hover{
+    background:  #a13a03;
+}
+.scanner-page__img {
+    width: 50%; 
+}
+.scanner-page__img img{
+    margin-left: auto;
+}
+
+
+
+//vulnerabilities
+.vulnerabilities {
+    padding: 8rem 0;
+}
+.vulnerabilities-block__item-title {
+    font-weight: 700;
+}
+.vulnerabilities-block__item-text {
+    margin-bottom: 20px;
+}
+.vulnerabilities-block__sutitle {
+    margin-bottom: 15px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.vulnerabilities-block__list {
+    margin-bottom: 40px;
+}
+.vulnerabilities-block__list-item {
+    margin: 0 0px 10px 20px;
+    position: relative;
+}
+.vulnerabilities-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+.vulnerabilities-block__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #247ACF;
+    color: #fff;
+    border-radius: 8px;
+}
+.vulnerabilities-block__elem-text {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.vulnerabilities-block__elem-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+.vulnerabilities-block__elem-btn {
+    width: 320px;
+}
+.vulnerabilities-block__elem-btn:hover{
+    background:  #a13a03;
+}
+
+
+
+
+//auditvulnerabilities
+.auditvulnerabilities {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.auditvulnerabilities-block__item {
+    margin-bottom: 40px;
+}
+.auditvulnerabilities-block__item-title {
+    margin-bottom: 20px;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.auditvulnerabilities-block__item-subtitle {
+    margin-bottom: 15px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.auditvulnerabilities-block__list-item {
+    margin: 0 0px 10px 20px;
+    position: relative;
+}
+.auditvulnerabilities-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+.auditvulnerabilities-block__item-text {
+    margin-bottom: 20px;
+}
+
+
+
+//stagesvulnerabilities
+.stagesvulnerabilities {
+    padding: 8rem 0;
+}
+.stagesvulnerabilities__title {
+    text-align: center;
+}
+.stagesvulnerabilities-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.stagesvulnerabilities-block__item-number {
+    margin: 0 auto 20px auto;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+    background-color: #247ACF;
+    border-radius: 50%;
+}
+.stagesvulnerabilities-block__item-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+//controlvulnerabilities
+.controlvulnerabilities {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.controlvulnerabilities-box__title {
+    font-weight: 700;
+}
+.controlvulnerabilities-box__text {
+    margin-bottom: 20px;
+}
+.controlvulnerabilities-box__info {
+    margin-bottom: 40px;
+    padding: 20px 40px;
+    background-color: #247ACF;
+    color: #fff;
+    border-radius: 8px;
+}
+.controlvulnerabilities-box__list {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.controlvulnerabilities-box__list-item {
+    width: calc(100% / 2.1 - 20px);
+    position: relative;
+    margin-left: 20px;
+}
+.controlvulnerabilities-box__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+
+
+
+//.mainvulnerabilities
+.mainvulnerabilities {
+    padding: 8rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.mainvulnerabilities__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.mainvulnerabilities-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.mainvulnerabilities-block__item {
+    width: calc(100% / 2 - 40px);
+    display: flex;
+    gap: 20px;
+}
+.mainvulnerabilities-block__item-img img{
+    min-width: 35px;
+}
+.mainvulnerabilities-block__content-title {
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+
+.usefulmaterials {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.usefulmaterials__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+.usefulmaterials-box {
+    padding: 20px;
+    background-color: #247ACF;
+    color: #fff;
+    border-radius: 6px;
+}
+.usefulmaterials-box__link {
+    margin-bottom: 15px;
+    padding: 10px;
+    display: block;
+    background-color: #ff7b32;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 6px;
+}

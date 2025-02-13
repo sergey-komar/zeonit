@@ -252,6 +252,23 @@ window.addEventListener('DOMContentLoaded', () => {
             })
     
         }
+
+        const apiTitle = document.querySelector('.api-box__title');
+        const apiContent = document.querySelector('.api-box__content');
        
+        if(apiTitle && apiContent){
+            apiTitle.addEventListener('click', () => {
+                apiContent.classList.toggle('api-open');
+            })
+        }
+
+        const templatesTitle = document.querySelector('.templates-box__title');
+        const templatesContent = document.querySelector('.templates-box__content');
+       
+        if(templatesTitle && templatesContent){
+            templatesTitle.addEventListener('click', () => {
+                templatesContent.classList.toggle('templates-open');
+            })
+        }
        
 })

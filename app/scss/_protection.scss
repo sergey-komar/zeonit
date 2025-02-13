@@ -1,0 +1,86 @@
+.protection {
+    padding: 4rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.protection__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.protection__content {
+    width: 50%;
+}
+.protection__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.protection__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.protection__btn {
+    max-width: 380px;
+    width: 100%; 
+}
+.protection__btn:hover{
+    background:  #a13a03;
+}
+.dataroom__img {
+    width: 50%; 
+}
+.dataroom__img img{
+    margin-left: auto;
+}
+
+
+
+//
+.nsx {
+    padding: 8rem 0;
+}
+.nsx__title {
+    text-align: center;
+}
+.nsx__list-title {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.nsx__list {
+    margin-bottom: 40px;
+}
+.nsx__list-item {
+    position: relative;
+    margin: 0 0px 15px 20px;
+    position: relative;
+}
+.nsx__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+.nsx__subtitle {
+    text-align: center;
+}
+.nsx-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.nsx-box__content {
+    width: 50%;
+}
+.nsx-box__content-text p{
+    margin-bottom: 20px;
+}
+.nsx-box__img {
+    width: 50%;
+}

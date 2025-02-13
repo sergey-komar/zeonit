@@ -1,5 +1,5 @@
 .administrator {
-    padding: 8rem 0;
+    padding: 5rem 0;
     background: url('../images/administrator/administrator-bg.png') no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,6 +7,7 @@
 .administrator__title {
     margin-bottom: 40px;
     font-size: 5.2rem;
+    max-width: 90rem;
 }
 .administrator-box {
     max-width: 90rem;
