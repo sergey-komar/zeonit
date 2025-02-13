@@ -233,5 +233,9 @@
     .header__inner{
         padding: 1rem 0;
     }
+    .menu__list li:hover .sub-menu{
+        height: 600px;
+        overflow: scroll;
+    }
 }
 

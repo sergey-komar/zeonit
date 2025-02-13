@@ -54,21 +54,7 @@
     .clients-block__item{
         width: calc(100% / 2 - 20px);
     }
-    .discuss-block,
-    .virtualization-info,
-    .administrator-user__box,
-    .business-block,
-    .preparation-block,
-    .basic-block,
-    .highlighted-block,
-    .models-box,
-    .audit-block,
-    .our-silder__item,
-    .virtual-machines,
-    .encryption-block,
-    .encryption-box{
-        flex-direction: column;
-    }
+    
     .discuss-block__content-img img{
         margin: 0 auto;
     }
@@ -101,6 +87,34 @@
     .elements-block__item {
         width: calc(100% / 2 - 15px);
     }
+    .discuss-block,
+    .virtualization-info,
+    .administrator-user__box,
+    .business-block,
+    .preparation-block,
+    .basic-block,
+    .highlighted-block,
+    .models-box,
+    .audit-block,
+    .our-silder__item,
+    .virtual-machines,
+    .encryption-block,
+    .encryption-box,
+    .steps-item,
+    .increase-block,
+    .where-block,
+    .videoanalytics-block,
+    .audiosystem-block,
+    .budget-block,
+    .outsourcing-block,
+    .trustoutsourcing-block,
+    .monitoring-box__inner,
+    .scanner-page__box,
+    .dataroom__box,
+    .protection__box,
+    .nsx-box{
+        flex-direction: column;
+    }
     .virtualization-block__item,
     .virtualization-info__list,
     .scroll-block__list-item,
@@ -132,7 +146,21 @@
     .encryption__material,
     .encryption-price,
     .encryption-block__img,
-    .trust-block__item{
+    .trust-block__item,
+    .steps-item__content,
+    .specialist-block__item-price,
+    .increase-block__content,
+    .where-block__content,
+    .videoanalytics-block__content,
+    .audiosystem-block__content,
+    .budget-block__content,
+    .trustoutsourcing-block__content,
+    .outsourcing-block__content,
+    .monitoring-box__content,
+    .scanner-page__content,
+    .dataroom__content,
+    .protection__content,
+    .nsx-box__content{
         width: 100%;
     }
     .virtualization-info__list-item{
@@ -142,7 +170,10 @@
     .coming-block__item,
     .installation-block__item,
     .benefits-block__item,
-    .appreciate-block__item{
+    .appreciate-block__item,
+    .reviewsvideo-block__item,
+    .stages-block__item,
+    .whereneeded-block__item{
         width: calc(100% / 2 - 20px);
     }
     .synccluster-block__img img{
@@ -171,6 +202,25 @@
     .encryption-block__img img{
         margin-left: 0;
     }
+    .reviews-block__item,
+    .places-box__item{
+        width: calc(100% / 3 - 35px);
+    }
+    .reviews__title{
+        padding-top: 30px;
+    }
+    .steps-item:nth-child(even) .steps-item__img,
+    .monitoring-box:nth-child(even) .monitoring-box__img{
+        order: 1;
+     }
+     .autsorsinga-block{
+        overflow: auto;
+        min-width: 100%;
+        padding-bottom: 10px;
+     }
+     .autsorsinga-block__table{
+        width: 110rem;
+     }
 }
 
 
@@ -198,21 +248,33 @@
     .rent-block__content,
     .tabs__item,
     .tabs__wrapper,
-    .develop-block__item {
+    .develop-block__item,
+    .stages-block__item,
+    .think-block__content,
+    .increase-block__list-item,
+    .videoanalytics-block__list-item,
+    .whereneeded-block__item,
+    .autsorsinga-box__item,
+    .stagesvulnerabilities-block__item,
+    .mainvulnerabilities-block__item,
+    .whyroom-block__item,
+    .room-block__content {
         width: 100%;
     }
     .about-block,
     .virtualizationwhat-block,
     .rent-block,
     .migrations__bottom,
-    .tabs__inner{
+    .tabs__inner,
+    .think-block,
+    .autsorsinga-box,
+    .room-block__item{
         flex-direction: column;
     }
-    .partners-block{
-        flex-wrap: wrap;
-    }
     .partners-block__item,
-    .migrate-block__item{
+    .migrate-block__item,
+    .reviews-block__item,
+    .places-box__item{
         width: calc(100% / 2 - 20px);
     }
     .partners-block__item img,
@@ -247,7 +309,37 @@
     .metroCluster,
     .virtual-machines-page,
     .encryption,
-    .trust{
+    .trust,
+    .stages,
+    .steps,
+    .specialist.specialist-wireless,
+    .places,
+    .think,
+    .increase,
+    .where,
+    .videoanalytics,
+    .audiosystem,
+    .budget,
+    .nuances,
+    .whereneeded,
+    .videoprice,
+    .autsorsinga,
+    .outsourcing,
+    .trustoutsourcing,
+    .specialist--autsorsinga,
+    .monitoring-box__inner,
+    .monitoring,
+    .scanner-page,
+    .vulnerabilities,
+    .auditvulnerabilities,
+    .stagesvulnerabilities,
+    .controlvulnerabilities,
+    .mainvulnerabilities,
+    .mitra,
+    .room,
+    .whyroom,
+    .protection,
+    .nsx{
         padding: 25px 0;
     }
     .virtualizationwhat-block__img,
@@ -260,7 +352,18 @@
     .commissioning-block__img,
     .rent-block__img,
     .audit-block__img,
-    .encryption-block__img img{
+    .encryption-block__img img,
+    .steps-item__img,
+    .think-block__img,
+    .increase-block__img,
+    .where-block__img,
+    .videoanalytics-block__img,
+    .audiosystem-block__img,
+    .budget-block__img,
+    .outsourcing-block__img,
+    .trustoutsourcing-block__img,
+    .monitoring-box__img,
+    .nsx-box__img{
         width: 65%;
         margin: 0 auto;
     }
@@ -271,6 +374,10 @@
     }
     .tabs__item-btn::before{
         display: none;
+    }
+    .partners-block,
+    .stagesvulnerabilities-block{
+        flex-wrap: wrap;
     }
     .tabs__item{
         padding-bottom: 10px;
@@ -302,6 +409,14 @@
     .video{
         min-height: 400px;
     }
+    .increase-block__list-item,
+    .videoanalytics-block__list-item{
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    .room-block__item:nth-child(even) .room-block__img{
+        order: 1;
+    }
 }
 
 
@@ -324,7 +439,7 @@
     }
     .subtitle{
         margin-bottom: 20px;
-        font-size: 22px;
+        font-size: 21px;
     }
     .modal-form{
         padding: 20px;
@@ -350,7 +465,12 @@
     .audit,
     .audit-tabs-page,
     .moving,
-    .interest{
+    .interest,
+    .reviewsvideo,
+    .wireless,
+    .characteristics,
+    .calcautsorsinga,
+    .sistema{
         padding: 30px 0;
     }
     .specialist,
@@ -370,7 +490,14 @@
     .audit__title,
     .onboarding__title,
     .synccluster-block__content-title,
-    .virtual-machines__content-title{
+    .virtual-machines__content-title,
+    .reviews__title,
+    .wireless__title,
+    .autsorsinga__title,
+    .sistema__title,
+    .scanner-page__title,
+    .dataroom__title,
+    .protection__title{
         font-size: 25px;
     }
     .about-desc__item-title,
@@ -393,7 +520,14 @@
      .setting-block__item-price,
     .technical-block__item-price,
     .specialist-block__item-price,
-    .virtualization-price__item-price{
+    .virtualization-price__item-price,
+    .steps-item__content-title,
+    .increase-block__list-title,
+    .vulnerabilities-block__sutitle,
+    .auditvulnerabilities-block__item-title,
+    .mainvulnerabilities__title,
+    .mitra-box__title,
+    .room__list-title{
         font-size: 21px;
     }
     .virtualization-price__subtitle,
@@ -422,7 +556,23 @@
     .setting-block__item-price span,
     .technical-block__item-price span,
     .specialist-block__item-price span,
-    .virtualization-price__item-price span{
+    .virtualization-price__item-price span,
+    .wireless__text,
+    .stages-block__item-link,
+    .steps-item__content-subtitle,
+    .where-block__item-title,
+    .characteristics-block__item-title,
+    .videoanalytics-block__list-title,
+    .audiosystem-block__item-title,
+    .whereneeded-block__item-title,
+    .specialist--autsorsinga .specialist__text,
+    .sistema__text,
+    .auditvulnerabilities-block__item-subtitle,
+    .mainvulnerabilities-block__content-title,
+    .scanner-page__text,
+    .dataroom__text,
+    .protection__text,
+    .whyroom-block__content-title{
         font-size: 18px;
     }
     .popular-block__content-text,
@@ -444,7 +594,9 @@
     .our-silder__content-text,
     .encryption__material-link,
     .encryption-price__subtitle p,
-    .virtualization-box__item-text{
+    .virtualization-box__item-text,
+    .autsorsinga-detailing__btn,
+    .autsorsinga-block__top-name{
         font-size: 16px;
         line-height: 1.4;
     }
@@ -452,7 +604,8 @@
     .clients-block__item-job,
     .footer-top__left-text,
     .reviews-page__item-job,
-    .virtualization-offer__btn{
+    .virtualization-offer__btn,
+    .videoprice-block__top-name{
         font-size: 14px;
     }
     .virtualizationwhat-block__content-title,
@@ -499,7 +652,38 @@
     .encryption-price__title,
     .encryption-block,
     .encryption__list,
-    .trust-block {
+    .trust-block,
+    .reviews__title,
+    .wireless__title,
+    .wireless__text,
+    .steps-item__content-title,
+    .steps-item,
+    .where-block__item,
+    .increase-block__list-title,
+    .characteristics-block__item,
+    .videoanalytics-block__content-text,
+    .videoanalytics-block__list-title,
+    .audiosystem-block__item,
+    .autsorsinga__title,
+    .sistema__title,
+    .sistema__text,
+    .monitoring-box,
+    .scanner-page__title,
+    .vulnerabilities-block__list,
+    .auditvulnerabilities-block__item,
+    .controlvulnerabilities-box__list,
+    .mainvulnerabilities__title,
+    .documents__title,
+    .scanner-page__text,
+    .dataroom__title,
+    .dataroom__text,
+    .mitra-box__title,
+    .room-block__item,
+    .room__list-title,
+    .whyroom-block__item,
+    .nsx-box,
+    .protection__title,
+    .protection__text {
         margin-bottom: 20px;
     }
     .virtualizationwhat-block,
@@ -520,7 +704,23 @@
     .synccluster-block,
     .encryption-block,
     .reasons-block,
-    .business-block__info{
+    .business-block__info,
+    .reviews-block,
+    .steps-item,
+    .places-box,
+    .increase-block,
+    .where-block,
+    .videoanalytics-block,
+    .audiosystem-block,
+    .whereneeded-block,
+    .outsourcing-block,
+    .trustoutsourcing-block,
+    .monitoring-box__inner,
+    .controlvulnerabilities-box__list,
+    .mainvulnerabilities-block,
+    .room-block__item,
+    .whyroom-block,
+    .nsx-box{
         gap: 20px;
     }
     .about-box__item,
@@ -541,7 +741,13 @@
     .partners-block__item,
     .virtualization-box__item,
     .specialist-block__content,
-    .specialist-block__item-price {
+    .specialist-block__item-price,
+    .reviews-block__item,
+    .reviewsvideo-block__item,
+    .wireless-box__item,
+    .places-box__item,
+    .sistema-box__item,
+    .controlvulnerabilities-box__list-item{
         width: 100%;
     }
     
@@ -557,8 +763,10 @@
     .coming-block__item-img img,
     .installation-block__item-img img,
     .technical-block__item-img img,
-    .virtualization-price__item-img img{
-        min-width: 60px;
+    .virtualization-price__item-img img,
+    .places-box__item-img img,
+    .whereneeded-block__item-img img{
+        min-width: 55px;
     }
     .benefits-block__item-title,
     .migrate-block__item-title,
@@ -568,14 +776,20 @@
     .metroCluster-box__item-text,
     .encryption__material-link,
     .setting-block__item-price,
-    .specialist-block__content-text{
+    .specialist-block__content-text,
+    .stages-block__item-link,
+    .steps-item__list-item,
+    .places-box__item-img img,
+    .whereneeded-block__item-title{
         margin-bottom: 5px;
     }
     .develop-block__item-img img,
     .migrate-block__item-img img,
     .free-block__item-img img,
-    .trust-block__item-img img{
-        width: 35px;
+    .trust-block__item-img img,
+    .stages-block__item-img img,
+    .whereneeded-block__item-img img{
+        width: 40px;
     }
     .footer-top__right,
     .encryption__material-title, 
@@ -594,6 +808,18 @@
     .technical-block__item{
         gap: 0px;
     }
+    .vulnerabilities-block__info,
+    .stages-block__item,
+    .places-box__item,
+    .controlvulnerabilities-box__info{
+        padding: 15px;
+    }
+    .monitoring-box:last-child,
+    .monitoring__title,
+    .nsx__list,
+    .nsx-box__content-text p:last-child{
+        margin-bottom: 0;
+    }
     .synccluster-block__img img{
         display: none;
     }
@@ -605,6 +831,7 @@
     }
     .breadcrumbs__list{
         gap: 15px;
+        row-gap: 5px;
     }
     .breadcrumbs__list li::after{
         right: -9px;
@@ -660,9 +887,6 @@
     .tabs__content{
         padding-left: 10px;
     }
-    .documents__title{
-        margin-bottom: 20px;
-    }
     .interest-block__item{
         padding: 20px;
     }
@@ -710,14 +934,43 @@
     .video{
         min-height: 350px;
     }
-    .video-box__btn{
+    .video-box__btn,
+    .stagesvulnerabilities-block__item-number{
         width: 60px;
         height: 60px;
     }
     .video-box__btn img{
         width: 20px;
     }
-    .vulnerabilities-block__info{
-        padding: 15px;
+    .wireless-box{
+        max-width: 100%;
+    }
+    .videoprice-block{
+        overflow: auto;
+    }
+    .videoprice-block__inner{
+        width: 60rem;
+    }
+    .videoprice-block__top{
+        min-width: 100%
+    }
+    .autsorsinga-block__top-name, .autsorsinga-block__item-name{
+        width: 25%;
+    }
+    .autsorsinga-detailing{
+        width: 75%;
+    }
+    .autsorsinga-block__table{
+        width: 90rem;
+    }
+    .autsorsinga-block__top,
+    .autsorsinga-block__item{
+        justify-content: space-between;
+    }
+    .autsorsinga-block__top-name, .autsorsinga-block__item-name{
+        padding: 10px;
+    }
+    .controlvulnerabilities{
+        padding-bottom: 0;
     }
 }

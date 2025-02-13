@@ -409,6 +409,9 @@
     color: #247ACF;
     font-weight: 600;
 }
+.videoanalytics-block__list-item:last-child{
+    margin-bottom: 0;
+}
 .videoanalytics-block__list-item::before{
     position: absolute;
     content: '';
