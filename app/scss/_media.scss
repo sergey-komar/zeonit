@@ -60,12 +60,14 @@
     .business-block,
     .preparation-block,
     .basic-block,
-    .highlighted-block{
+    .highlighted-block,
+    .models-box,
+    .audit-block,
+    .our-silder__item,
+    .virtual-machines,
+    .encryption-block,
+    .encryption-box{
         flex-direction: column;
-    }
-    .discuss-block__form,
-    .discuss-block__content{
-        width: 100%;
     }
     .discuss-block__content-img img{
         margin: 0 auto;
@@ -76,7 +78,8 @@
     .specialist-block__item,
     .extended-block,
     .commissioning-block,
-    .technical-block__item{
+    .technical-block__item,
+    .vulnerabilities-block__info{
         flex-wrap: wrap;
     }
     .about-box,
@@ -113,7 +116,23 @@
     .commissioning-block__content,
     .technical-block__item-price,
     .highlighted-block__left,
-    .highlighted-block__right{
+    .highlighted-block__right,
+    .audit-block,
+    .discuss-block__form,
+    .audit-block__content,
+    .discuss-block__content,
+    .our-silder__item-img,
+    .our-silder__content,
+    .free-block__item,
+    .synccluster-block__content,
+    .synccluster-block__img,
+    .vulnerabilities-block__elem,
+    .virtual-machines__content,
+    .encryption-block__content,
+    .encryption__material,
+    .encryption-price,
+    .encryption-block__img,
+    .trust-block__item{
         width: 100%;
     }
     .virtualization-info__list-item{
@@ -121,8 +140,13 @@
     }
     .interest-block__item,
     .coming-block__item,
-    .installation-block__item{
+    .installation-block__item,
+    .benefits-block__item,
+    .appreciate-block__item{
         width: calc(100% / 2 - 20px);
+    }
+    .synccluster-block__img img{
+        margin-left: 0;
     }
     .specialist-block__item-price{
         text-align: unset;
@@ -136,6 +160,16 @@
     }
     .basic-block__list-item{
         margin-left: 30px;
+    }
+    .vulnerabilities-block__elem-text,
+    .vulnerabilities-block__elem-title{
+        text-align: left;
+    }
+    .encryption-block{
+        margin-bottom: 40px;
+    }
+    .encryption-block__img img{
+        margin-left: 0;
     }
 }
 
@@ -163,7 +197,8 @@
     .installation-block__item,
     .rent-block__content,
     .tabs__item,
-    .tabs__wrapper {
+    .tabs__wrapper,
+    .develop-block__item {
         width: 100%;
     }
     .about-block,
@@ -176,7 +211,8 @@
     .partners-block{
         flex-wrap: wrap;
     }
-    .partners-block__item{
+    .partners-block__item,
+    .migrate-block__item{
         width: calc(100% / 2 - 20px);
     }
     .partners-block__item img,
@@ -200,8 +236,19 @@
     .migrations,
     .control,
     .questions,
-    .advantages{
-        padding: 20px 0;
+    .advantages,
+    .benefits,
+    .our-clients,
+    .onboarding,
+    .develop,
+    .migrate,
+    .appreciate,
+    .free,
+    .metroCluster,
+    .virtual-machines-page,
+    .encryption,
+    .trust{
+        padding: 25px 0;
     }
     .virtualizationwhat-block__img,
     .virtualization-info__img,
@@ -211,7 +258,9 @@
     .basic-block__img,
     .extended-block__img,
     .commissioning-block__img,
-    .rent-block__img{
+    .rent-block__img,
+    .audit-block__img,
+    .encryption-block__img img{
         width: 65%;
         margin: 0 auto;
     }
@@ -250,6 +299,9 @@
     .tabs__inner{
         gap: 10px;
     }
+    .video{
+        min-height: 400px;
+    }
 }
 
 
@@ -263,7 +315,7 @@
     }
     .title{
         margin-bottom: 20px;
-        font-size: 24px;
+        font-size: 23px;
     }
     .btn{
         height: 45px;
@@ -273,6 +325,9 @@
     .subtitle{
         margin-bottom: 20px;
         font-size: 22px;
+    }
+    .modal-form{
+        padding: 20px;
     }
     .popular,
     .clients,
@@ -291,7 +346,11 @@
     .coming,
     .reasons,
     .does,
-    .administrator-user{
+    .administrator-user,
+    .audit,
+    .audit-tabs-page,
+    .moving,
+    .interest{
         padding: 30px 0;
     }
     .specialist,
@@ -302,6 +361,69 @@
     .reasons,
     .administrator-user{
         padding-bottom: 30px;
+    }
+    .virtualization__title,
+    .documents__title h1,
+    .administrator__title,
+    .telephony__title,
+    .rent-block__content-title,
+    .audit__title,
+    .onboarding__title,
+    .synccluster-block__content-title,
+    .virtual-machines__content-title{
+        font-size: 25px;
+    }
+    .about-desc__item-title,
+    .virtualizationwhat-block__content-title,
+    .virtualization-price__title,
+    .virtualization-offer__title,
+    .interest__title,
+    .coming__text,
+    .administrator-user__content-title,
+    .acquaintance__title,
+    .discuss-block__content-title,
+    .our-silder__content-title,
+    .specialist-block__item-price,
+    .vulnerabilities-block__elem-title,
+    .encryption__material-title, 
+    .encryption-price__title,
+    .popular-block__content-title,
+    .advantages-block__left-item-title,
+     .advantages-block__right-item-title,
+     .setting-block__item-price,
+    .technical-block__item-price,
+    .specialist-block__item-price,
+    .virtualization-price__item-price{
+        font-size: 21px;
+    }
+    .virtualization-price__subtitle,
+    .interest-block__item-text,
+    .clients-block__item-name,
+    .installation__text,
+    .control__subtitle,
+    .questions-accardion__title,
+    .specialist-block__content-title,
+    .licenses-box__item-text,
+    .documents-slider__item-title,
+    .zauavka__title,
+    .api-box__content-title,
+     .templates-box__content-title,
+     .audit__text,
+     .tabs-audit__box-title,
+     .benefits-block__item-title,
+     .onboarding__text,
+     .migrate-block__item-title,
+     .free-block__item-title,
+     .moving-block__item-title,
+     .synccluster-block__content-text,
+     .virtual-machines__content-text,
+     .about-box__item-title,
+    .about-block__content-text,
+    .setting-block__item-price span,
+    .technical-block__item-price span,
+    .specialist-block__item-price span,
+    .virtualization-price__item-price span{
+        font-size: 18px;
     }
     .popular-block__content-text,
     .advantages-block__left-item-text,
@@ -317,38 +439,21 @@
     .administrator-box__item-text,
     .telephony-box__item-text,
     .rent-block__content-text,
-    .interest-block__item-btn{
+    .interest-block__item-btn,
+    .api-box__link a,
+    .our-silder__content-text,
+    .encryption__material-link,
+    .encryption-price__subtitle p,
+    .virtualization-box__item-text{
         font-size: 16px;
         line-height: 1.4;
     }
-    .virtualization__title,
-    .documents__title h1,
-    .administrator__title,
-    .telephony__title,
-    .rent-block__content-title{
-        font-size: 27px;
-    }
-    .about-desc__item-title,
-    .virtualizationwhat-block__content-title,
-    .virtualization-price__title,
-    .virtualization-offer__title,
-    .interest__title,
-    .coming__text,
-    .administrator-user__content-title,
-    .acquaintance__title{
-        font-size: 21px;
-    }
-    .virtualization-price__subtitle,
-    .interest-block__item-text,
-    .clients-block__item-name,
-    .installation__text,
-    .control__subtitle,
-    .questions-accardion__title,
-    .specialist-block__content-title,
-    .licenses-box__item-text,
-    .documents-slider__item-title,
-    .zauavka__title{
-        font-size: 18px;
+    .breadcrumbs__list li a,
+    .clients-block__item-job,
+    .footer-top__left-text,
+    .reviews-page__item-job,
+    .virtualization-offer__btn{
+        font-size: 14px;
     }
     .virtualizationwhat-block__content-title,
     .virtualization-price__title,
@@ -378,7 +483,23 @@
     .control__list-item,
     .about-desc__item,
     .administrator__title,
-    .coming__text{
+    .coming__text,
+    .tabs-audit__item,
+    .tabs-audit__box,
+    .our-silder__content-title,
+    .audit__title,
+    .onboarding__title,
+    .onboarding__text,
+    .synccluster-block__content-title,
+    .synccluster-block__content-text,
+    .metroCluster-box__item,
+    .virtual-machines__content-title,
+    .virtual-machines__content-text,
+    .encryption__material-title, 
+    .encryption-price__title,
+    .encryption-block,
+    .encryption__list,
+    .trust-block {
         margin-bottom: 20px;
     }
     .virtualizationwhat-block,
@@ -393,13 +514,34 @@
     .commissioning-block,
     .installation-block,
     .highlighted-block,
-    .virtualization-info{
+    .virtualization-info,
+    .develop-block,
+    .free-block,
+    .synccluster-block,
+    .encryption-block,
+    .reasons-block,
+    .business-block__info{
         gap: 20px;
     }
     .about-box__item,
     .tabs__item,
     .tabs__wrapper,
-    .about-block__content-img{
+    .about-block__content-img,
+    .benefits-block__item,
+    .migrate-block__item,
+    .appreciate-block__item,
+    .moving-block__item-title,
+    .moving-block__item-text,
+    .vulnerabilities-block__elem-btn,
+    .popular-block__content,
+    .discuss-block__form-input,
+    .footer-bottom__left,
+    .footer-bottom__left-btn,
+    .elements-block__item,
+    .partners-block__item,
+    .virtualization-box__item,
+    .specialist-block__content,
+    .specialist-block__item-price {
         width: 100%;
     }
     
@@ -418,15 +560,48 @@
     .virtualization-price__item-img img{
         min-width: 60px;
     }
-    .specialist-block__item-price{
-        font-size: 24px;
+    .benefits-block__item-title,
+    .migrate-block__item-title,
+    .appreciate-block__item-title,
+    .moving-block__item-title,
+    .free-block__item-title,
+    .metroCluster-box__item-text,
+    .encryption__material-link,
+    .setting-block__item-price,
+    .specialist-block__content-text{
+        margin-bottom: 5px;
     }
-    .interest{
-        padding-top: 20px;
-        padding-bottom: 40px;
+    .develop-block__item-img img,
+    .migrate-block__item-img img,
+    .free-block__item-img img,
+    .trust-block__item-img img{
+        width: 35px;
+    }
+    .footer-top__right,
+    .encryption__material-title, 
+    .encryption-price__title{
+        text-align: center;
+    }
+    .reviews-page__content,
+    .tabs__inner,
+    .discuss-block__bottom,
+    .licenses-box__item,
+    .auavka-box{
+        flex-direction: column;
+    }
+    .specialist-block__item,
+    .moving-block__item,
+    .technical-block__item{
+        gap: 0px;
+    }
+    .synccluster-block__img img{
+        display: none;
     }
     .breadcrumbs{
-        padding: 15px 0;
+        padding: 0;
+    }
+    ul.breadcrumbs__list{
+        padding-top: 5px;
     }
     .breadcrumbs__list{
         gap: 15px;
@@ -434,15 +609,12 @@
     .breadcrumbs__list li::after{
         right: -9px;
     }
-    .breadcrumbs__list li a,
-    .clients-block__item-job,
-    .footer-top__left-text{
-        font-size: 14px;
-    }
+    
     .virtualization-info__list-item{
         margin-left: 30px;
     }
-    .popular-block__item{
+    .popular-block__item,
+    .moving-block__item{
         flex-direction: column;
         padding: 20px;
     }
@@ -450,42 +622,14 @@
         width: auto;
         order: -1;
     }
-    .popular-block__content{
-        width: 100%;
-    }
-    .popular-block__content-title{
-        font-size: 20px;
-        line-height: 1.2;
-    }
-    .advantages-block__left-item-title, .advantages-block__right-item-title{
-        font-size: 24px;
-    }
-    .discuss-block__bottom{
-        flex-direction: column;
-    }
-    .discuss-block__form-input{
-        width: 100%;
-    }
-    .discuss-block__content-title{
-        font-size: 24px;
-    }
     .discuss-block__top{
         margin-bottom: 15px;
-    }
-    .footer-bottom__left-btn{
-        width: 100%;
     }
     .footer-top, .footer-bottom{
         flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 35px;
-    }
-    .footer-top__right{
-        text-align: center;
-    }
-    .footer-bottom__left{
-        width: 100%;
     }
     .footer{
         padding: 5rem 0;
@@ -504,84 +648,29 @@
     .reasons-block__item-img{
         margin-bottom: 10px;
     }
-    .reasons-block{
-        gap: 20px;
-    }
-    .reviews-page__content,
-    .tabs__inner{
-        flex-direction: column;
-    }
     .reviews-page__content-img img{
         width: 50px;
-    }
-    .reviews-page__item-job{
-        font-size: 14px;
-    }
-    
-    
-    .about-box__item-title,
-    .about-block__content-text{
-        font-size: 18px;
     }
     .about-box{
         margin-bottom: 30px;
     }
-    
     .tabs{
         padding-bottom: 40px;
     }
     .tabs__content{
         padding-left: 10px;
     }
-    .elements-block__item{
-        width: 100%;
-    }
-    .licenses-box__item{
-        flex-direction: column;
-    }
-    .partners-block__item,
-    .virtualization-box__item{
-        width: 100%;
-    }
     .documents__title{
         margin-bottom: 20px;
-    }
-    .virtualization-box__item-text{
-        font-size: 16px;
     }
     .interest-block__item{
         padding: 20px;
     }
-    .virtualization-offer__btn{
-        font-size: 14px;
-    }
-    .specialist-block__item{
-        gap: 0px;
-    }
     .telephony-box__item{
         gap: 10px;
     }
-    .setting-block__item-price,
-    .technical-block__item-price,
-    .specialist-block__item-price,
-    .virtualization-price__item-price{
-        font-size: 22px;
-    }
-    .setting-block__item-price span,
-    .technical-block__item-price span,
-    .specialist-block__item-price span,
-    .virtualization-price__item-price span{
-        font-size: 18px;
-    }
-    .setting-block__item-price,
-    .specialist-block__content-text{
-        margin-bottom: 5px;
-    }
     .extended-block__list-item{
         margin-bottom: 0;
-    }
-    .technical-block__item{
-        gap: 0px;
     }
     .questions__wrapper{
         padding: 15px;
@@ -592,23 +681,43 @@
     .virtualization-price__item{
         gap: 5px;
     }
-    .business-block__info{
-        gap: 25px;
-    }
     .discuss-block__form-textarea{
         height: 100px;
     }
     .interest-block__item-img img{
         width: 50px;
     }
-    .specialist-block__content,
-    .specialist-block__item-price{
-        width: 100%;
-    }
-    .auavka-box{
-        flex-direction: column;
-    }
     .interest-block__item-btn{
         line-height: 45px;
+    }
+    .templates-box__title::after, 
+    .api-box__title::after{
+        top: 35%;
+    }
+    .tabs-audit__item{
+        overflow: auto;
+        padding-bottom: 10px;
+    }
+    .tab-audit__item-btn{
+        min-width: 250px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .our-silder .slick-dots li button{
+        width: 50px;
+        height: 4px;
+    }
+    .video{
+        min-height: 350px;
+    }
+    .video-box__btn{
+        width: 60px;
+        height: 60px;
+    }
+    .video-box__btn img{
+        width: 20px;
+    }
+    .vulnerabilities-block__info{
+        padding: 15px;
     }
 }

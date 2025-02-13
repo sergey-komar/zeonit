@@ -3,6 +3,9 @@
     background-color: #247ACF;
     color: #fff;
 }
+.onboarding-info{
+    max-width: 90rem;
+}
 .onboarding__title {
     margin-bottom: 40px;
     font-size: 5rem; 
@@ -188,7 +191,7 @@
 }
 
 
-
+//free
 .free {
     padding: 8rem 0;
 }
@@ -199,6 +202,7 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .free-block__item {
     padding: 20px;

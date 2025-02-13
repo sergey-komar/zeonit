@@ -34,11 +34,11 @@ $(function () {
         $(this).next().slideToggle(500); 
      });
 
-     if(Fancybox){
+   
         Fancybox.bind("[data-fancybox]", {
             // Your custom options
           });
-     }
+   
     
       
 })
@@ -65,14 +65,16 @@ window.addEventListener('DOMContentLoaded', () => {
     const modalCloseBtn = document.querySelector('.modal__close');
 
 
-
-    modalBtn.forEach(btn =>{
-        btn.addEventListener('click', ()=>{
-            modal.classList.add('show-modal');
-            modal.classList.remove('hide-modal');
-            document.body.style.overflow = 'hidden';
-        })
-    });
+    if(modalBtn){
+        modalBtn.forEach(btn =>{
+            btn.addEventListener('click', ()=>{
+                modal.classList.add('show-modal');
+                modal.classList.remove('hide-modal');
+                document.body.style.overflow = 'hidden';
+            })
+        });
+    }
+   
 
     modalCloseBtn.addEventListener('click', ()=>{
             modal.classList.add('hide-modal');
