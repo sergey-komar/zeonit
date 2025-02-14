@@ -1,0 +1,122 @@
+.waf {
+    padding: 4rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.prwaf__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.prwaf__content {
+    width: 50%;
+}
+.prwaf__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.prwaf__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.prwaf__btn {
+    max-width: 380px;
+    width: 100%; 
+}
+.prwaf__btn:hover{
+    background:  #a13a03;
+}
+.waf__img {
+    width: 50%; 
+}
+.waf__img img{
+    margin-left: auto;
+}
+
+
+
+//wafapplication
+.wafapplication {
+    padding: 8rem 0;
+}
+.wafapplication-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.wafapplication-block__content {
+    width: 50%;
+}
+.wafapplication-block__content-text p{
+    margin-bottom: 20px;
+}
+.wafapplication-block__list-title,
+.wafapplication-block__info-title {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.wafapplication-block__list-tem,
+.wafapplication-block__list-item {
+    position: relative;
+    margin: 0 0px 15px 20px;
+}
+.wafapplication-block__list-tem::before,
+.wafapplication-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+.wafapplication-block__info {
+    width: 50%;
+}
+
+
+
+
+//wafweb
+.wafweb {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.wafweb-block {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.wafweb-block__content {
+    width: 50%;
+}
+.wafweb-block__content-title,
+.wafweb-block__list-title {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.wafweb-block__content-text p{
+    margin-bottom: 20px;
+}
+.wafweb-block__list-item {
+    position: relative;
+    margin: 0 0px 15px 20px;
+}
+.wafweb-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+.wafweb-block__img {
+    width: 50%;
+}

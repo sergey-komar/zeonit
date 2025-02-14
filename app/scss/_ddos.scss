@@ -1,0 +1,132 @@
+.ddos {
+    padding: 4rem 0;
+    background-color: #247ACF;
+    color: #fff;
+}
+.prddos__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.prddos__content {
+    width: 50%;
+}
+.prddos__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+}
+.prddos__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.prddos__btn {
+    max-width: 380px;
+    width: 100%; 
+}
+.prddos__btn:hover{
+    background:  #a13a03;
+}
+.ddos__img {
+    width: 50%; 
+}
+.ddos__img img{
+    margin-left: auto;
+}
+
+
+
+//attack
+.attack {
+    padding: 8rem 0;
+}
+.attack-block {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.attack-block__content {
+    width: 50%;
+}
+.attack-block__content-title,
+.attack__list-title {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.attack-block__content-text p{
+    margin-bottom: 20px;  
+}
+.attack-block__list-item {
+    position: relative;
+    margin: 0 0px 15px 20px;
+}
+.attack-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+.attack-block__img {
+    width: 50%;
+}
+.attack__list-title {
+    padding-top: 40px;
+}
+.attack__list-item {
+    position: relative;
+    margin: 0 0px 15px 20px;
+}
+.attack__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+
+
+
+//ddostarif
+.ddostarif {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.ddostarif__title {
+    text-align: center;
+}
+.ddostarif-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ddostarif-block__item {
+    padding: 20px;
+    width: calc(100% / 4 - 20px);
+    box-shadow: 1px 1px 1px 2px rgba(45, 52, 79, 0.2);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.ddostarif-block__item-title {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.ddostarif-block__list-item {
+    margin-bottom: 15px;
+}
+.ddostarif-block__item-price {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
