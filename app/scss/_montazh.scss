@@ -78,7 +78,7 @@
 
 
 
-
+//steps
 .steps {
     padding-top: 8rem;
 }
@@ -92,7 +92,7 @@
    order: -1;
 }
 .steps-item__content {
-    width: 60%;
+    width: 70%;
 }
 .steps-item__content-title {
     margin-bottom: 40px;
@@ -115,7 +115,7 @@
     color: #247ACF;
 }
 .steps-item__img {
-    width: 40%;
+    width: 30%;
 }
 .steps-item__list-title {
     margin-bottom: 20px;
@@ -612,3 +612,6 @@
     border-bottom: none;
 }
 
+.auavka-box{
+    align-items: center;
+}

@@ -48,6 +48,9 @@
 .monitoring-box:nth-child(even) .monitoring-box__img{
     order: -1;
 }
+.monitoring__title{
+    text-align: center;
+}
 .monitoring-box__inner{
     padding: 8rem 0;
     display: flex;
