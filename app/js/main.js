@@ -275,5 +275,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 templatesContent.classList.toggle('templates-open');
             })
         }
+
+        
+
+
        
 })

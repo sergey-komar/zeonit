@@ -1,0 +1,37 @@
+.api {
+    padding: 8rem 0;
+}
+.api-block {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.api-block__content {
+    width: 60%;
+}
+.api-block__content-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.api-block__content-text p{
+    margin-bottom: 20px;
+}
+.api-block__img {
+    width: 40%;
+}
+.api-box {
+    padding: 30px;
+    margin: 40px 0;
+    background: url('../images/api/api-images.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    border-radius: 8px;
+}
+.api-box__title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
