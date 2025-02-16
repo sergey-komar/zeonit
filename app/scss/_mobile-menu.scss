@@ -228,14 +228,17 @@
     }
     .menu__list li .sub-menu li a{
         text-align: left;
-        margin-bottom: 0;
+        margin-bottom: 5px;
     }
     .header__inner{
         padding: 1rem 0;
     }
     .menu__list li:hover .sub-menu{
-        height: 600px;
-        overflow: scroll;
+        overflow-y: auto;
+        height: 500px;
+    }
+    .menu__list li:hover .sub-menu {
+        display: block;
     }
 }
 

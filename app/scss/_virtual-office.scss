@@ -1,0 +1,208 @@
+.virtualoffice{
+    padding: 8rem 0;
+}
+.virtualoffice-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.virtualoffice-box__left {
+    width: 33%;
+}
+.virtualoffice-box__title {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.virtualoffice-box__text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.virtualoffice-box__item-text{
+    margin-bottom: 20px;
+}
+.virtualoffice-box__item-text span{
+    font-weight: 700;
+}
+.virtualoffice-box__center {
+    width: 33%;
+}
+.virtualoffice-box__right {
+    width: 33%;
+}
+
+
+
+
+
+//virtualofficetur 
+.virtualofficetur {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.virtualofficetur-block__item {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.virtualofficetur-block__item:nth-child(odd) .virtualofficetur-block__item-img{
+    order: 1;
+}
+.virtualofficetur-block__item-img {
+    width: 50%;
+}
+.virtualofficetur-block__content {
+    width: 50%;
+}
+.virtualofficetur-block__content-title {
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+
+
+
+
+//virtualofficeadmin
+.virtualofficeadmin {
+    padding: 8rem 0;
+    background-color: #247ACF;
+}
+.virtualofficeadmin__title {
+    max-width: 90rem;
+    text-align: center;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.virtualofficeadmin__text {
+    margin: 0 auto 40px auto;
+    max-width: 90rem;
+    text-align: center;
+    color: #fff;
+}
+.virtualofficeadmin-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.virtualofficeadmin-box__item {
+    width: calc(100% / 2 - 20px);
+    display: flex;
+}
+.virtualofficeadmin-box__item:nth-child(3) .virtualofficeadmin-box__img,
+.virtualofficeadmin-box__item:nth-child(4) .virtualofficeadmin-box__img{
+    order: -1;
+}
+.virtualofficeadmin-box__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    background-color: #fff;
+}
+.virtualofficeadmin-box__content-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.virtualofficeadmin-box__img {
+    height: 350px;
+    width: 50%;
+}
+.virtualofficeadmin-box__img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+//virtualofficework
+.virtualofficework {
+    padding: 8rem 0;
+}
+.virtualofficework__title {
+    max-width: 90rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.virtualofficework__text {
+    margin: 0 auto 40px auto;
+    max-width: 90rem;
+    text-align: center;
+}
+.virtualofficework-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.virtualofficework-block__item {
+    width: calc(100% / 4 - 40px);
+    padding: 20px;
+    box-shadow: 1px 1px 1px 2px rgba(45, 52, 79, 0.2);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+.virtualofficework-block__item-number {
+    margin: 0 auto 20px auto;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #247ACF;
+    font-size: 30px;
+    font-weight: 700;
+}
+.virtualofficework-block__item-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+
+
+//virtualofficesmall
+.virtualofficesmall {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.virtualofficesmall__title {
+    text-align: center;
+}
+.virtualofficesmall-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.virtualofficesmall-block__item {
+    width: calc(100% / 3 - 40px);
+}
+.virtualofficesmall-block__item-img {
+    margin-bottom: 10px;
+    height: 280px;
+}
+.virtualofficesmall-block__item-img img{
+    height: 100%;
+}
+.virtualofficesmall-block__item-subtitle {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}

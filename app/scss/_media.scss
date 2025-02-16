@@ -330,7 +330,10 @@
     .corpdrive-box__link,
     .possibilitiesnext-box__item,
     .hosting-box__item,
-    .basedsolution-box__item {
+    .basedsolution-box__item,
+    .stakhanovetsdlp-box__item,
+    .stahstructure-box__content,
+    .stahstructure-box__img {
         width: 100%;
     }
     .about-block,
@@ -356,7 +359,9 @@
     .corpdrive-box__images,
     .possibilitiesnext-box,
     .hosting-box,
-    .basedsolution-box{
+    .basedsolution-box,
+    .stahstructure-box,
+    .stakhanovetsdlp-box{
         flex-direction: column;
     }
     .partners-block__item,
@@ -460,7 +465,9 @@
     .basedsolution,
     .hostingtarif,
     .hostconfiguration,
-    .hostmodel{
+    .hostmodel,
+    .stahstructure,
+    .stakhanovetsdlp{
         padding: 30px 0;
     }
     .virtualizationwhat-block__img,
@@ -541,7 +548,8 @@
         margin-left: 30px;
         margin-bottom: 15px;
     }
-    .room-block__item:nth-child(even) .room-block__img{
+    .room-block__item:nth-child(even) .room-block__img,
+    .stahstructure-box__img{
         order: 1;
     }
     .hostconfiguration-table{
@@ -620,7 +628,8 @@
     .wireless,
     .characteristics,
     .calcautsorsinga,
-    .sistema{
+    .sistema,
+    .usefulmaterials{
         padding: 30px 0;
     }
     .specialist,
@@ -699,7 +708,10 @@
      .stakhanovets-box__title,
      .corpdrive-box__img-title,
      .hosting-box__item-title,
-     .hostingtarif-box__item-title{
+     .hostingtarif-box__item-title,
+     .usefulmaterials__title,
+     .discuss-block__content-title,
+     .stahstructure__subtitle{
         font-size: 20px;
     }
     .virtualization-price__subtitle,
@@ -894,7 +906,9 @@
     .corpdrive__text,
     .corpdrivetarif-box,
     .hostingtarif-box__list,
-    .hostmodel-box__item-text {
+    .hostmodel-box__item-text,
+    .usefulmaterials__title,
+    .stahstructure-box {
         margin-bottom: 20px;
     }
     .virtualizationwhat-block,
@@ -948,7 +962,9 @@
     .corpstorage-box,
     .hosting-box,
     .auavka-box,
-    .basedsolution-box{
+    .basedsolution-box,
+    .stahstructure-box,
+    .stakhanovetsdlp-box{
         gap: 20px;
     }
     .about-box__item,
@@ -1034,7 +1050,8 @@
     .encryption__material-title, 
     .encryption-price__title,
     .ddostarif-block__item,
-    .questions-top__title{
+    .questions-top__title,
+    .discuss-block__content-title{
         text-align: center;
     }
     .reviews-page__content,
@@ -1063,7 +1080,8 @@
     .usergateway-box__list-item:last-child,
     .webguardservice-block__content-text p:last-child,
     .emergency__list-item:last-child,
-    .corpstorage-box__item-text p:last-child{
+    .corpstorage-box__item-text p:last-child,
+    .stakhanovetsdlp-box__item-text{
         margin-bottom: 0;
     }
     .synccluster-block__img img{

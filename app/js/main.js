@@ -20,6 +20,14 @@ $(function () {
       });
 
 
+      $(".reviewsslider-block").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      });
+
+
+
+      
       $(".our-silder").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -258,8 +266,8 @@ window.addEventListener('DOMContentLoaded', () => {
     
         }
 
-        const apiTitle = document.querySelector('.api-box__title');
-        const apiContent = document.querySelector('.api-box__content');
+        const apiTitle = document.querySelector('.questions-api__box-title');
+        const apiContent = document.querySelector('.questions-api__box-content');
        
         if(apiTitle && apiContent){
             apiTitle.addEventListener('click', () => {

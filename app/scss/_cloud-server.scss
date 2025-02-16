@@ -58,14 +58,6 @@
     background-color: #247ACF;
     border-radius: 6px;
 }
-.models-box__text {
-}
-.models-block__btn {
-}
-.btn {
-}
-.btn-click {
-}
 .tabs{
     background-color: #f5f5f5;
 }
@@ -187,19 +179,25 @@
 
 
 
-.api{
+.questions-api{
     padding: 4rem 0 0 0;
 }
 .templates-box__title,
-.api-box__title,
+.questions-api__box-title,
 .questions-top__title{
     position: relative;
-    font-size: 4rem;
+    font-size: 3.4rem;
     font-weight: 700;
     cursor: pointer;
 }
+.templates-box__title{
+    margin-bottom: 0;
+}
+.templates-box__content{
+    padding-top: 20px;
+}
 .templates-box__title::after,
-.api-box__title::after{
+.questions-api__box-title::after{
     position: absolute;
     content: '';
     width: 22px;
@@ -209,26 +207,26 @@
     background: url('../images/rent/arr-down-blue.svg') no-repeat;
     background-size: contain;
 }
-.api-box__content-title,
+.questions-api__box-content-title,
 .templates-box__content-title {
     margin-bottom: 20px;
     font-size: 2.4rem;
     font-weight: 700;
 }
 
-.api-box__text p{
+.questions-api__box-text p{
     margin-bottom: 20px;
 }
-.api-box__list {
+.questions-api__box-list {
     margin-bottom: 40px;
 }
-.api-box__list-item,
+.questions-api__box-list-item,
 .templates-box__list-item {
     margin: 0 0px 15px 20px;
     position: relative;
 }
 .templates-box__list-item::before,
-.api-box__list-item::before {
+.questions-api__box-list-item::before {
     position: absolute;
     content: '';
     width: 8px;
@@ -238,14 +236,14 @@
     left: -15px;
     background-color: #247ACF;
 }
-.api-box__link a{
+.questions-api__box-link a{
     margin-bottom: 15px;
     display: block;
     font-weight: 700;
     font-size: 18px;
     color: #247ACF;
 }
-.api-box__content,
+.questions-api__box-content,
 .templates-box__content{
     display: none;
 }

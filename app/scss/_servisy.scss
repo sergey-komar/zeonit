@@ -1,0 +1,145 @@
+.servisy {
+    padding: 4rem 0;
+    background: url('../images/servisy/slider-promo-bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.servisy__title {
+    margin-bottom: 40px;
+    font-size: 5.2rem;
+    max-width: 90rem;
+}
+.servisy-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.servisy-box__content {
+    margin-bottom: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.servisy-box__item {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.servisy-box__item-img {
+    min-width: 20px;
+}
+.servisy-box__item-text {
+    font-size: 20px;
+}
+.servisy-box__img {
+    width: 40%;
+}
+.servisy__btn {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+
+//servisyrussia
+.servisyrussia {
+    padding: 8rem 0;
+}
+.servisyrussia__title {
+    text-align: center;
+}
+.servisyrussia-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.servisyrussia-block__img {
+    width: 50%;
+}
+.servisyrussia-block__img img{
+    margin: 0 auto;
+}
+.servisyrussia-block__content {
+    width: 50%;
+}
+.servisyrussia-block__content-text p{
+    margin-bottom: 20px;
+}
+.servisyrussia-block__list-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.servisyrussia-block__list-item {
+    position: relative;
+    margin: 0 0px 15px 20px;
+}
+.servisyrussia-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+
+
+
+//servisytarif
+.servisytarif {
+    padding: 8rem 0;
+    background-color: #f5f5f5;
+}
+.servisytarif__title {
+    text-align: center;
+}
+.servisytarif-table__top,
+.servisytarif-table__price,
+.servisytarif-table__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+.servisytarif-table__top{
+    background-color: #247ACF;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.servisytarif-table__top-name:first-child,
+.servisytarif-table__price-name:first-child,
+.servisytarif-table__item-name:first-child{
+    width: 40%;
+    font-weight: 700;
+    text-align: left;
+}
+.servisytarif-table__top-name,
+.servisytarif-table__price-name,
+.servisytarif-table__item-name{
+    width: 15%;
+    text-align: center;
+}
+.servisytarif-table__price:nth-child(even),
+.servisytarif-table__item:nth-child(even){
+    background-color: #fff;
+}
+.servisytarif-table__item-name img{
+    margin: auto;
+}
+
+
+
+
+.discuss--servisy{
+    background-color: #f5f5f5;
+}
