@@ -27,6 +27,9 @@
 }
 
 
+
+
+
 @media(max-width: 968px){
     .title{
         font-size: 34px;
@@ -65,7 +68,8 @@
     .extended-block,
     .commissioning-block,
     .technical-block__item,
-    .vulnerabilities-block__info{
+    .vulnerabilities-block__info,
+    .microsoftproduct-block{
         flex-wrap: wrap;
     }
     .about-box,
@@ -112,7 +116,19 @@
     .scanner-page__box,
     .dataroom__box,
     .protection__box,
-    .nsx-box{
+    .nsx-box,
+    .attack-block,
+    .wafweb-block,
+    .usergateway-block__item,
+    .auavka-box,
+    .corporathow-box__img,
+    .api-block,
+    .stakhanovets-box,
+    .corpdrive-box,
+    .corpdrivetarif-box,
+    .corpstorage-box,
+    .hostingtarif-box,
+    .hostmodel-box{
         flex-direction: column;
     }
     .virtualization-block__item,
@@ -160,7 +176,20 @@
     .scanner-page__content,
     .dataroom__content,
     .protection__content,
-    .nsx-box__content{
+    .nsx-box__content,
+    .attack-block__content,
+    .wafweb-block__content,
+    .usergateway-block__img,
+    .usergateway-block__content,
+    .corporathow-box__img-img,
+    .api-block__content,
+    .stakhanovets-box__item,
+    .corpdrive-box__img,
+    .corpdrive-box__content,
+    .corpdrivetarif-box__item,
+    .corpstorage-box__item,
+    .hostingtarif-box__item,
+    .hostmodel-box__item{
         width: 100%;
     }
     .virtualization-info__list-item{
@@ -173,7 +202,9 @@
     .appreciate-block__item,
     .reviewsvideo-block__item,
     .stages-block__item,
-    .whereneeded-block__item{
+    .whereneeded-block__item,
+    .ddostarif-block__item,
+    .microsoftproduct-block__item{
         width: calc(100% / 2 - 20px);
     }
     .synccluster-block__img img{
@@ -210,7 +241,8 @@
         padding-top: 30px;
     }
     .steps-item:nth-child(even) .steps-item__img,
-    .monitoring-box:nth-child(even) .monitoring-box__img{
+    .monitoring-box:nth-child(even) .monitoring-box__img,
+    .usergateway-block__item:first-child .usergateway-block__img{
         order: 1;
      }
      .autsorsinga-block{
@@ -220,6 +252,21 @@
      }
      .autsorsinga-block__table{
         width: 110rem;
+     }
+     .comparisoncorp-table__top-name{
+        font-size: 16px;
+     }
+     .comparisoncorp-table{
+        padding-bottom: 10px;
+        overflow-x: auto;
+     }
+     .comparisoncorp-table__wrapper{
+        width: 150rem;
+     }
+     .comparisoncorp-table__item-name,
+     .comparisoncorp-table__top-name{
+        min-width: 200px;
+        width: 100%;
      }
 }
 
@@ -258,7 +305,32 @@
     .stagesvulnerabilities-block__item,
     .mainvulnerabilities-block__item,
     .whyroom-block__item,
-    .room-block__content {
+    .room-block__content,
+    .usergrade__content,
+    .ddostarif-block__item,
+    .wafapplication-block__content,
+    .wafapplication-block__info,
+    .usergateway-box__content,
+    .usergateway-box__info,
+    .userfunctions-block__item,
+    .userexamples-block__item,
+    .webguardservice-block__content,
+    .webguardservice-block__img,
+    .webguardpeculiarities-block__item,
+    .microsoftproduct-block__item,
+    .microsoftsolutions-box__item,
+    .corporateoptions-box__item,
+    .corporatemail-box__item,
+    .corporaterent-box__content,
+    .corporatvideo-box__content,
+    .corporatvideo-box__link,
+    .basedtasks-box__content,
+    .basedtasks-box__img,
+    .emergency-box__item,
+    .corpdrive-box__link,
+    .possibilitiesnext-box__item,
+    .hosting-box__item,
+    .basedsolution-box__item {
         width: 100%;
     }
     .about-block,
@@ -268,7 +340,23 @@
     .tabs__inner,
     .think-block,
     .autsorsinga-box,
-    .room-block__item{
+    .room-block__item,
+    .usergrade__box,
+    .wafapplication-block,
+    .usergateway-box,
+    .userexamples-block,
+    .webguardservice-block,
+    .microsoftsolutions-box,
+    .corporateoptions-box,
+    .corporatemail-box,
+    .corporaterent-box,
+    .corporatvideo-box,
+    .basedtasks-box,
+    .emergency-box,
+    .corpdrive-box__images,
+    .possibilitiesnext-box,
+    .hosting-box,
+    .basedsolution-box{
         flex-direction: column;
     }
     .partners-block__item,
@@ -278,7 +366,9 @@
         width: calc(100% / 2 - 20px);
     }
     .partners-block__item img,
-    .virtualizationwhat-block__img{
+    .virtualizationwhat-block__img,
+    .waf__usergrade-img img,
+    .corporatvideo-box__link img{
         margin: 0 auto;
     }
     .telephony,
@@ -339,8 +429,39 @@
     .room,
     .whyroom,
     .protection,
-    .nsx{
-        padding: 25px 0;
+    .nsx,
+    .attack,
+    .ddostarif,
+    .wafapplication,
+    .wafweb,
+    .usergateway,
+    .usergateway-block__wrapper,
+    .userfunctions,
+    .userexamples,
+    .webguardservice,
+    .webguardpeculiarities,
+    .microsoftproduct,
+    .microsoftsolutions,
+    .corporateoptions,
+    .corporatemail,
+    .corporaterent,
+    .corporatvideo,
+    .corporathow,
+    .api,
+    .basedtasks,
+    .emergency,
+    .stakhanovets,
+    .corpdrive,
+    .corpdrivetarif,
+    .possibilitiesnext,
+    .comparisoncorp,
+    .corpstorage,
+    .hosting,
+    .basedsolution,
+    .hostingtarif,
+    .hostconfiguration,
+    .hostmodel{
+        padding: 30px 0;
     }
     .virtualizationwhat-block__img,
     .virtualization-info__img,
@@ -363,7 +484,12 @@
     .outsourcing-block__img,
     .trustoutsourcing-block__img,
     .monitoring-box__img,
-    .nsx-box__img{
+    .nsx-box__img,
+    .waf__usergrade-img,
+    .attack-block__img,
+    .wafweb-block__img,
+    .corporaterent-box__img,
+    .api-block__img{
         width: 65%;
         margin: 0 auto;
     }
@@ -385,7 +511,8 @@
         display: flex;
         gap: 10px;
         justify-content: space-between;
-        overflow: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
     }
 
     .tabs__item-btn{
@@ -417,7 +544,29 @@
     .room-block__item:nth-child(even) .room-block__img{
         order: 1;
     }
+    .hostconfiguration-table{
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+    .hostconfiguration-table__inner{
+        width: 850px;
+    }
+    .hostconfiguration-table__top-name,
+    .hostconfiguration-table__item-name{
+        width: 100%;
+        min-width: 190px;
+        font-size: 16px;
+    }
+    .hostconfiguration-table__top,
+     .hostconfiguration-table__item{
+        padding: 10px;
+     }
 }
+
+
+
+
+
 
 
 
@@ -430,16 +579,17 @@
     }
     .title{
         margin-bottom: 20px;
-        font-size: 23px;
+        font-size: 22px;
     }
-    .btn{
+    .btn,
+    .button{
         height: 45px;
         line-height: 45px;
         max-width: 100%;
     }
     .subtitle{
         margin-bottom: 20px;
-        font-size: 21px;
+        font-size: 20px;
     }
     .modal-form{
         padding: 20px;
@@ -497,7 +647,8 @@
     .sistema__title,
     .scanner-page__title,
     .dataroom__title,
-    .protection__title{
+    .protection__title,
+    .usergrade__title{
         font-size: 25px;
     }
     .about-desc__item-title,
@@ -527,8 +678,29 @@
     .auditvulnerabilities-block__item-title,
     .mainvulnerabilities__title,
     .mitra-box__title,
-    .room__list-title{
-        font-size: 21px;
+    .room__list-title,
+    .attack-block__content-title,
+    .attack__list-title,
+    .wafapplication-block__list-title, 
+    .wafapplication-block__info-title,
+    .wafweb-block__content-title,
+     .wafweb-block__list-title,
+     .usergateway-box__info-title,
+     .usergateway-block__content-title,
+     .userexamples-block__item-title,
+     .microsoftproduct-block__item-title,
+     .microsoftsolutions-box__item-title,
+     .corporaterent-box__content-title,
+     .corporathow-box__content-title,
+     .api-block__content-title,
+     .basedtasks-box__content-text,
+     .basedtasks-box__img-title,
+     .emergency__subtitle,
+     .stakhanovets-box__title,
+     .corpdrive-box__img-title,
+     .hosting-box__item-title,
+     .hostingtarif-box__item-title{
+        font-size: 20px;
     }
     .virtualization-price__subtitle,
     .interest-block__item-text,
@@ -572,7 +744,24 @@
     .scanner-page__text,
     .dataroom__text,
     .protection__text,
-    .whyroom-block__content-title{
+    .whyroom-block__content-title,
+    .usergrade__text,
+    .ddostarif-block__item-title,
+    .usergateway-box__list-title,
+    .userfunctions-block__item-title,
+    .webguardservice-block__list-title,
+    .webguardpeculiarities-block__item-title,
+    .microsoftproduct-block__item-subtitle,
+    .corporateoptions-box__item-title,
+    .basedtasks-box__content-title,
+    .stakhanovets-box__item-title,
+    .corpdrive-box__item-title,
+    .corpdrivetarif-box__item-title,
+    .possibilitiesnext-box__item-title,
+    .corpstorage-box__item-title,
+    .basedsolution-box__content-title,
+    .hostingtarif-box__item-price,
+    .hostmodel-box__item-title{
         font-size: 18px;
     }
     .popular-block__content-text,
@@ -596,7 +785,10 @@
     .encryption-price__subtitle p,
     .virtualization-box__item-text,
     .autsorsinga-detailing__btn,
-    .autsorsinga-block__top-name{
+    .autsorsinga-block__top-name,
+    .microsoftproduct-block__item-services,
+    .emergency-box__item-text,
+    .corpdrivetarif-box__item-price{
         font-size: 16px;
         line-height: 1.4;
     }
@@ -607,6 +799,10 @@
     .virtualization-offer__btn,
     .videoprice-block__top-name{
         font-size: 14px;
+    }
+    .usergrade__text,
+    .usergrade__title{
+        margin-bottom: 30px;
     }
     .virtualizationwhat-block__content-title,
     .virtualization-price__title,
@@ -683,7 +879,22 @@
     .whyroom-block__item,
     .nsx-box,
     .protection__title,
-    .protection__text {
+    .protection__text,
+    .wafapplication-block__list-title,
+    .wafapplication-block__info-title,
+    .wafweb-block__content-title, 
+    .wafweb-block__list-title,
+    .usergateway-box,
+    .usergateway-block__item,
+    .corporatemail-box,
+    .corporatvideo-box__content-text,
+    .emergency__text,
+    .stakhanovets__text p:last-child,
+    .stakhanovets-box__title,
+    .corpdrive__text,
+    .corpdrivetarif-box,
+    .hostingtarif-box__list,
+    .hostmodel-box__item-text {
         margin-bottom: 20px;
     }
     .virtualizationwhat-block,
@@ -720,7 +931,24 @@
     .mainvulnerabilities-block,
     .room-block__item,
     .whyroom-block,
-    .nsx-box{
+    .nsx-box,
+    .attack-block,
+    .usergateway-box,
+    .usergateway-block__item,
+    .userfunctions-block,
+    .webguardservice-block,
+    .webguardpeculiarities-block,
+    .microsoftsolutions-box,
+    .corporateoptions-box,
+    .corporatemail-box,
+    .corporathow-box__img,
+    .basedtasks-box,
+    .emergency-box,
+    .possibilitiesnext-box,
+    .corpstorage-box,
+    .hosting-box,
+    .auavka-box,
+    .basedsolution-box{
         gap: 20px;
     }
     .about-box__item,
@@ -747,7 +975,9 @@
     .wireless-box__item,
     .places-box__item,
     .sistema-box__item,
-    .controlvulnerabilities-box__list-item{
+    .controlvulnerabilities-box__list-item,
+    .corporatvideo-box__content-btn,
+    .api-block__img{
         width: 100%;
     }
     
@@ -768,6 +998,14 @@
     .whereneeded-block__item-img img{
         min-width: 55px;
     }
+    .reasons-block__item-img,
+    .webguardpeculiarities-block__item-title,
+    .microsoftproduct-block__item-title,
+    .microsoftproduct-block__item-subtitle,
+    .corpdrivetarif-box__item-title,
+    .hostingtarif-box__item-title{
+        margin-bottom: 10px;
+    }
     .benefits-block__item-title,
     .migrate-block__item-title,
     .appreciate-block__item-title,
@@ -780,7 +1018,8 @@
     .stages-block__item-link,
     .steps-item__list-item,
     .places-box__item-img img,
-    .whereneeded-block__item-title{
+    .whereneeded-block__item-title,
+    .ddostarif-block__list-item{
         margin-bottom: 5px;
     }
     .develop-block__item-img img,
@@ -793,7 +1032,9 @@
     }
     .footer-top__right,
     .encryption__material-title, 
-    .encryption-price__title{
+    .encryption-price__title,
+    .ddostarif-block__item,
+    .questions-top__title{
         text-align: center;
     }
     .reviews-page__content,
@@ -817,7 +1058,12 @@
     .monitoring-box:last-child,
     .monitoring__title,
     .nsx__list,
-    .nsx-box__content-text p:last-child{
+    .nsx-box__content-text p:last-child,
+    .usergateway-box__content-text,
+    .usergateway-box__list-item:last-child,
+    .webguardservice-block__content-text p:last-child,
+    .emergency__list-item:last-child,
+    .corpstorage-box__item-text p:last-child{
         margin-bottom: 0;
     }
     .synccluster-block__img img{
@@ -872,9 +1118,7 @@
         margin-bottom: 10px;
         font-size: 18px;
     }
-    .reasons-block__item-img{
-        margin-bottom: 10px;
-    }
+    
     .reviews-page__content-img img{
         width: 50px;
     }
@@ -887,7 +1131,8 @@
     .tabs__content{
         padding-left: 10px;
     }
-    .interest-block__item{
+    .interest-block__item,
+    .zauavka{
         padding: 20px;
     }
     .telephony-box__item{
@@ -970,7 +1215,32 @@
     .autsorsinga-block__top-name, .autsorsinga-block__item-name{
         padding: 10px;
     }
-    .controlvulnerabilities{
+    .controlvulnerabilities,
+    .corporathow{
         padding-bottom: 0;
+    }
+    .discuss{
+        padding-top: 0;
+    }
+    .zauavka{
+        margin-top: 20px;
+    }
+    .corporatvideo-box__img-btn{
+        width: 50px;
+    }
+    .emergency__subtitle{
+        padding-top: 20px;
+    }
+    .emergency-box__item-number{
+        width: 45px;
+        height: 45px;
+    }
+    .tabs__content-img{
+        width: 200px;
+        margin: 0 auto 20px auto;
+    }
+    .comparisoncorp-table__top,
+    .comparisoncorp-table__item{
+        padding: 10px;
     }
 }
