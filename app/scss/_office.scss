@@ -1,0 +1,114 @@
+.officemic {
+    padding: 8rem 0;
+}
+.officemic__title {
+    text-align: center;
+}
+.officemic__text p{
+    margin-bottom: 20px;
+}
+.officemic__subtitle{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.officemic-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.officemic-block__item {
+    width: calc(100% / 5 - 10px);
+    padding: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(45, 52, 79, 0.2);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+.officemic-block__item-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #247ACF;
+}
+.officemic-block__item-subtitle {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.officemic-block__item-text {
+    margin-bottom: 20px;
+}
+.officemic-block__list {
+    margin-bottom: 20px;
+}
+.officemic-block__list-item {
+    position: relative;
+    margin: 0 0px 5px 20px;
+   display: inline-block;
+}
+.officemic-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 6px;
+    left: -15px;
+    background-color: #247ACF;
+}
+.officemic-block__item-btn {
+    width: 100%;
+}
+
+
+
+.officetarif {
+    padding-bottom: 8rem;
+}
+.officetarif-top,
+.officetarif-accardion__btn,
+.officetarif-accardion__text {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+}
+.officetarif-top{
+    font-weight: 700;
+    background-color: #247ACF;
+    color: #fff;
+    border-radius: 6px;
+}
+.officetarif-top__name,
+.officetarif-accardion__title {
+    text-align: center;
+    width: 16%;
+}
+.officetarif__wrapper:nth-child(odd) {
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+.officetarif-accardion__title:first-child{
+    font-weight: 700;
+    text-align: left;
+}
+.officetarif-accardion__title {
+    cursor: pointer;
+}
+.officetarif-accardion__title--circle{
+    position: relative;
+    margin-left: 25px;
+}
+.officetarif-accardion__title--circle::before{
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 25px;
+    left: -35px;
+    top: 2px;
+    background: url('../images/virtualoffice/plus.png') no-repeat;
+}
+.officetarif-accardion__content {
+    display: none;
+}

@@ -118,11 +118,15 @@ ul.breadcrumbs__list{
 .reviews-page.reviews-page--white{
     background-color: #fff;
 }
-.interest.interest--white{
+.interest.interest--white,
+.reviews-page--white{
     background-color: #fff;
 }
 .interest.interest--grey,
 .discuss.discuss--white,
 .specialist.specialist-wireless{
 	background: #f5f5f5;
+}
+.discuss--grey{
+	background-color: #f5f5f5;
 }
